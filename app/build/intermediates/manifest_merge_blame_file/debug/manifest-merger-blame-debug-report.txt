@@ -10,108 +10,162 @@
 9        android:targetSdkVersion="32" />
 9-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:6:5-46:19
-12        android:allowBackup="true"
-12-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:7:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:8:9-65
-15        android:debuggable="true"
-16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:9:9-54
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:10:9-43
-18        android:label="@string/app_name"
-18-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:11:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:12:9-54
-20        android:supportsRtl="true"
-20-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:13:9-35
-21        android:theme="@style/Theme.KAKIHomeUI" >
-21-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:14:9-48
-22        <activity
-22-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:16:9-18:40
-23            android:name="com.example.kakihomeui.addpost1"
-23-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:17:13-37
-24            android:exported="false" />
-24-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:18:13-37
-25        <activity
-25-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:19:9-21:40
-26            android:name="com.example.kakihomeui.profile"
-26-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:20:13-36
-27            android:exported="false" />
-27-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:21:13-37
-28        <activity
-28-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:22:9-24:40
-29            android:name="com.example.kakihomeui.chat"
-29-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:23:13-33
-30            android:exported="false" />
-30-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:24:13-37
-31        <activity
-31-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:25:9-27:40
-32            android:name="com.example.kakihomeui.friends"
-32-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:26:13-36
-33            android:exported="false" />
-33-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:27:13-37
-34        <activity
-34-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:28:9-30:40
-35            android:name="com.example.kakihomeui.sign_up"
-35-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:29:13-36
-36            android:exported="false" />
-36-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:30:13-37
-37        <activity
-37-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:31:9-33:40
-38            android:name="com.example.kakihomeui.sign_in"
-38-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:32:13-36
-39            android:exported="false" />
-39-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:33:13-37
-40        <activity
-40-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:34:9-36:40
-41            android:name="com.example.kakihomeui.intro_activity"
-41-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:35:13-43
-42            android:exported="false" />
-42-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:36:13-37
-43        <activity
-43-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:37:9-45:20
-44            android:name="com.example.kakihomeui.MainActivity"
-44-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:38:13-41
-45            android:exported="true" >
-45-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:39:13-36
-46            <intent-filter>
-46-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:40:13-44:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:41:17-69
-47-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:41:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:43:17-77
-49-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:43:27-74
-50            </intent-filter>
-51        </activity>
-52
-53        <provider
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-54            android:name="androidx.startup.InitializationProvider"
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-55            android:authorities="com.example.kakihomeui.androidx-startup"
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-56            android:exported="false" >
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-57            <meta-data
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-59                android:value="androidx.startup" />
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-60            <meta-data
-60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-62                android:value="androidx.startup" />
-62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-63        </provider>
-64    </application>
-65
-66</manifest>
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:6:5-46:19
+17        android:allowBackup="true"
+17-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\c395e7e1015ee83acecf070a1d54b71a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:8:9-65
+20        android:debuggable="true"
+21        android:fullBackupContent="@xml/backup_rules"
+21-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:9:9-54
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:13:9-35
+26        android:theme="@style/Theme.KAKIHomeUI" >
+26-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:14:9-48
+27        <activity
+27-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:16:9-18:40
+28            android:name="com.example.kakihomeui.addpost1"
+28-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:17:13-37
+29            android:exported="false" />
+29-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:18:13-37
+30        <activity
+30-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:19:9-21:40
+31            android:name="com.example.kakihomeui.profile"
+31-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:20:13-36
+32            android:exported="false" />
+32-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:21:13-37
+33        <activity
+33-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:22:9-24:40
+34            android:name="com.example.kakihomeui.chat"
+34-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:23:13-33
+35            android:exported="false" />
+35-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:24:13-37
+36        <activity
+36-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:25:9-27:40
+37            android:name="com.example.kakihomeui.friends"
+37-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:26:13-36
+38            android:exported="false" />
+38-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:27:13-37
+39        <activity
+39-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:28:9-30:40
+40            android:name="com.example.kakihomeui.sign_up"
+40-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:29:13-36
+41            android:exported="false" />
+41-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:30:13-37
+42        <activity
+42-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:31:9-33:40
+43            android:name="com.example.kakihomeui.sign_in"
+43-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:32:13-36
+44            android:exported="false" />
+44-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:33:13-37
+45        <activity
+45-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:34:9-36:40
+46            android:name="com.example.kakihomeui.intro_activity"
+46-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:35:13-43
+47            android:exported="false" />
+47-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:36:13-37
+48        <activity
+48-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:37:9-45:20
+49            android:name="com.example.kakihomeui.MainActivity"
+49-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:38:13-41
+50            android:exported="true" >
+50-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:39:13-36
+51            <intent-filter>
+51-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:40:13-44:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:41:17-69
+52-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:41:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:43:17-77
+54-->C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:43:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <service
+58-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+63                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+63-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+65        </service>
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+71
+72        <provider
+72-->[com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+73            android:name="com.google.firebase.provider.FirebaseInitProvider"
+73-->[com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+74            android:authorities="com.example.kakihomeui.firebaseinitprovider"
+74-->[com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+76            android:exported="false"
+76-->[com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+77            android:initOrder="100" />
+77-->[com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+85            android:authorities="com.example.kakihomeui.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+93        </provider>
+94    </application>
+95
+96</manifest>

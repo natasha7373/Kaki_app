@@ -8,6 +8,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">KAKI Home UI</string>
+    <string name="default_web_client_id" translatable="false">420888345308-9cacsfp4aisvutldkr55a5l0j7bqcjv8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://kakiapp-c1ff8-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">420888345308</string>
+    <string name="google_api_key" translatable="false">AIzaSyBllCr2-JlAVRunsyEVQoPF_CrK6xGy0ZQ</string>
+    <string name="google_app_id" translatable="false">1:420888345308:android:05225ffd44632d22a7d219</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBllCr2-JlAVRunsyEVQoPF_CrK6xGy0ZQ</string>
+    <string name="google_storage_bucket" translatable="false">kakiapp-c1ff8.appspot.com</string>
+    <string name="project_id" translatable="false">kakiapp-c1ff8</string>
     <style name="Theme.KAKIHomeUI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
