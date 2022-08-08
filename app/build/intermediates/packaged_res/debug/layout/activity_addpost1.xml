@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="406dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:scaleX="1.8"
+        android:scaleY="1.8"
+        app:srcCompat="@drawable/top_head" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/futura_bold"
+        android:gravity="center"
+        android:text="find a kaki"
+        android:textAllCaps="true"
+        android:textColor="#EE5C54"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/signup_subheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/futura_bold"
+        android:gravity="center"
+        android:text="Post a Notice"
+        android:textAllCaps="true"
+        android:textColor="#A6000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/notice_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_subheader"
+        android:text="Notice Title"
+        android:textSize="30dp"
+        android:fontFamily="@font/futura_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <EditText
+        android:id="@+id/noticetitlebanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notice_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/futura_bold"
+        android:hint="e.g Want Mahjong Kaki"
+        android:padding="20dp"
+        android:textColorHint="#8F050505"
+        android:textSize="28dp" />
+
+        <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noticetitlebanner"
+        android:text="Location"
+        android:textSize="30dp"
+        android:fontFamily="@font/futura_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/location_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/futura_bold"
+        android:hint="Pick a Location"
+        android:padding="20dp"
+        android:textColorHint="#8F050505"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location_banner"
+        android:text="Date"
+        android:textSize="30dp"
+        android:fontFamily="@font/futura_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/date_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/futura_bold"
+        android:hint="Pick a Date"
+        android:padding="20dp"
+        android:textColorHint="#8F050505"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_banner"
+        android:text="Time"
+        android:textSize="30dp"
+        android:fontFamily="@font/futura_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/time_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/futura_bold"
+        android:hint="Pick a Time"
+        android:padding="20dp"
+        android:textColorHint="#8F050505"
+        android:textSize="28dp" />
+
+
+    <EditText
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_banner"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_next"
+        android:fontFamily="@font/futura_bold"
+        android:hint="NEXT"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:srcCompat="@drawable/ic_baseline_west" />
+
+
+</RelativeLayout>

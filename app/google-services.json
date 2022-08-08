@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "420888345308",
+    "firebase_url": "https://kakiapp-c1ff8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kakiapp-c1ff8",
+    "storage_bucket": "kakiapp-c1ff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420888345308:android:05225ffd44632d22a7d219",
+        "android_client_info": {
+          "package_name": "com.example.kakihomeui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420888345308-9cacsfp4aisvutldkr55a5l0j7bqcjv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBllCr2-JlAVRunsyEVQoPF_CrK6xGy0ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420888345308-9cacsfp4aisvutldkr55a5l0j7bqcjv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
