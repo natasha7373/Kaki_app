@@ -44,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
                                 ,profile.class));
                         overridePendingTransition(0,0);
                         return true;
+                    case R.id.post:
+                        startActivity(new Intent(getApplicationContext()
+                                ,addpost1.class));
+                        overridePendingTransition(0,0);
+                        return true;
                 }
                 return false;
             }
