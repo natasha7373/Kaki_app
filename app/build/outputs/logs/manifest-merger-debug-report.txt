@@ -4,54 +4,66 @@ ADDED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.x
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:2:1-48:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\540a8c1c5153d5d017fb64d914df643c\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\a9a0195e710ecef197a3d3b1bf4c1086\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\394bb91a0dbf29de2a48cd3ef978c15e\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:15:1-38:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9032eb26f6a6c7a4bfd82a7fa38b9b82\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\bab19bd7aaf1bb7e590851957c6565b1\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:15:1-26:12
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\b8cd85d2a7a6ab8095bc531dab4e9d3a\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\a098b3756dc3c802e23d3ab9c217ff80\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\71f7917d96a147ad9b705b511ac08890\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\latia\.gradle\caches\transforms-3\4b73ce9eff7e0ac11c80a66b866148a4\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\latia\.gradle\caches\transforms-3\7d131887c95c2dfcb825606cbfe91be0\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\48204502659ddcfe2c1ed26b5f07a3cb\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\09bb05522ab9ed14de934256bd490914\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\0151853135f5a5ae21703e8ceabbb462\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\84dbddc47388b5a3b606603281a63276\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9da6fbda6256f9b202670d6fe140f71e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\latia\.gradle\caches\transforms-3\95b45af99fdd1b60bc3ff9231ca34e0d\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\ec1a8458c334bc293681e2985fbf3822\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\66ba7a42555abfb3935ab156e2a4355c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\140702ac86541f5993a76040590ab567\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\197f87cb7268773b3b0c1b833783b2dc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\1f7f09c1e1d8e513ae991adf8f25cb0c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\e345040ee48c841f52720c7ce2184282\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\dea58a4c40e01c646bb81a349f637ec7\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\c395e7e1015ee83acecf070a1d54b71a\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\84007f80b9605b813bc0b6e7b74e4e5e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\fb0667501aa866eb219effb3b54f7e7e\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\2439ed788c0c0369dabaa5f75eab7ef7\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\8c33376f8ebda83e8b0d07d2d89d5cd3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\98aa0d5e335cd35005e8108b145b7094\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\latia\.gradle\caches\transforms-3\3c454eaf35d75e22bb41dd4c0e6fbd83\transformed\firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\fd3020fb0c3813a30976ce233d92f08f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f18f00048a331952d6b5e2f2266303e5\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\58c86896ae7868327911e1299466a239\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\latia\.gradle\caches\transforms-3\320113c44b5c30d51d06ede13d039f26\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\b034e4fc17faa503e0049f62a8592bbe\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\ced4f0ea8ee1f91a9616285d0fd6bb8e\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\latia\.gradle\caches\transforms-3\aa7f1a3579fc37b910ddc34844b6f85a\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\918af422cdd17aaaa491dc242d3493d4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\88d25585235328f8469fd149ae7919cc\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\facc28cfdf6fdec56455cfa648c73964\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\a763fa15081ac9087661d76fe7bc2810\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\05e144d6e24ed0071ccbbb957eaa3547\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\08543c00b3cf7ccf8eaa47772c17792b\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\008bb01919eacaad75cee55b00cad0d4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\0c33b3aefe4a0dffd56f5d4cde657a77\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bee93c75ad3c32bb880a4e0933f87829\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\67895ea9320779269cbd99d95f8d7a9e\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\431535abcb480845b4443539e90c07dd\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\024b3f5af1923bfca4c5a1de67e3bfc6\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\543d64382cee7ec4c1641a4b45a2f456\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\0862ffbd0ce6e4134278414dbe2abc45\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\299914a2fb3a4a58190b3f6a7ffe95e2\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\3f5af08c98eada2b7113e94141e4462d\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a116bde165d7cfca9ba520ecdba38d70\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bb4bfe1772c1c3442b98e0b3b9e8595a\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\latia\.gradle\caches\transforms-3\03255fbeac449eb323cf92caf70a269f\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\latia\.gradle\caches\transforms-3\ca6a5f61971d2a4d4d547deaec0be952\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\latia\.gradle\caches\transforms-3\b0e48fdcca110c933cd1359c72494a30\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\latia\.gradle\caches\transforms-3\e19e90b1280a7300980eedede2a4d477\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\13db225d78985d9a6d4da3fb72ac672b\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\b93c418b826e614beb4e0ece37eaed15\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\c7b3b592d2f1e25d7ec336f280b846b3\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\12b19370df78f3fdc4f269a3e0b9ae3d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\803b4a572911039773ab499104749295\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\latia\.gradle\caches\transforms-3\24c25723556697de7fb7c87546dddd00\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\64a8a4b3fcdc5c1c513df62ce34b0844\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\72031f99ad63f188339a8869cd525620\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\8d79eedecf3912237fcdb4d9b5e07021\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\657dc82e1d794c01cf19c4697906e5ec\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\8f58dceb31db4860d366f6a95e5bf4db\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\8193879396ddc9bbe68686d4fd364311\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e9c10c215e32ed6ab99f6169634bcd4e\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\9e2a65209f6221677c7c5ca7237af0e4\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f53b33f037488d671bedb06d9391d3a8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\098f60461b6c84bf62c410701554dccc\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\54ce17ef195cb0c638878e384f82d43b\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\a637f5e6f7fd082250870e207fd1c72f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e40167b83188e06e0ff736546b5c3b9a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\latia\.gradle\caches\transforms-3\a0e240e38387ed99dfa04798224123a0\transformed\firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\126f080b2641c96f49f155eb01d875bc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\3ac8c03094f6ba0f0a7e6c1d86798a6f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\74cecff5e3d1de95ba84fe96b6f3c9b3\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\latia\.gradle\caches\transforms-3\a9fde76631bcbfd7fcdf50cc1ec8668f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\8e4c2a9ff39fe296351dc73a1722f946\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\7a00735b4c9b1d39aa1d5fe5944c5c32\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\latia\.gradle\caches\transforms-3\9f99803712ff9fa73b4f38ca024808f7\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\65c00f5ca4727dbff6a88089e1fd9dd3\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9ef73b1283b63fd8534856b80d21fcae\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e3f8adc82b80b66c2c7bc5c86640857d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\a5eb6cd887cb271305ae89fa0615ff65\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\78c00a931992e83f7d259cc4b39dbe94\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:2:1-48:12
@@ -73,36 +85,56 @@ INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifes
 		ADDED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:6:5-46:19
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\540a8c1c5153d5d017fb64d914df643c\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\540a8c1c5153d5d017fb64d914df643c\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\a9a0195e710ecef197a3d3b1bf4c1086\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\a9a0195e710ecef197a3d3b1bf4c1086\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\bab19bd7aaf1bb7e590851957c6565b1\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\bab19bd7aaf1bb7e590851957c6565b1\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\a098b3756dc3c802e23d3ab9c217ff80\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\a098b3756dc3c802e23d3ab9c217ff80\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\71f7917d96a147ad9b705b511ac08890\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\71f7917d96a147ad9b705b511ac08890\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\c395e7e1015ee83acecf070a1d54b71a\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\c395e7e1015ee83acecf070a1d54b71a\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\fd3020fb0c3813a30976ce233d92f08f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\fd3020fb0c3813a30976ce233d92f08f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f18f00048a331952d6b5e2f2266303e5\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f18f00048a331952d6b5e2f2266303e5\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\08543c00b3cf7ccf8eaa47772c17792b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\08543c00b3cf7ccf8eaa47772c17792b\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\008bb01919eacaad75cee55b00cad0d4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\008bb01919eacaad75cee55b00cad0d4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bee93c75ad3c32bb880a4e0933f87829\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bee93c75ad3c32bb880a4e0933f87829\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\67895ea9320779269cbd99d95f8d7a9e\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\67895ea9320779269cbd99d95f8d7a9e\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\431535abcb480845b4443539e90c07dd\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\431535abcb480845b4443539e90c07dd\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\299914a2fb3a4a58190b3f6a7ffe95e2\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\299914a2fb3a4a58190b3f6a7ffe95e2\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\3f5af08c98eada2b7113e94141e4462d\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\3f5af08c98eada2b7113e94141e4462d\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a116bde165d7cfca9ba520ecdba38d70\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a116bde165d7cfca9ba520ecdba38d70\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bb4bfe1772c1c3442b98e0b3b9e8595a\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bb4bfe1772c1c3442b98e0b3b9e8595a\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\latia\.gradle\caches\transforms-3\03255fbeac449eb323cf92caf70a269f\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\latia\.gradle\caches\transforms-3\03255fbeac449eb323cf92caf70a269f\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\latia\.gradle\caches\transforms-3\ca6a5f61971d2a4d4d547deaec0be952\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\latia\.gradle\caches\transforms-3\ca6a5f61971d2a4d4d547deaec0be952\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\9e2a65209f6221677c7c5ca7237af0e4\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\9e2a65209f6221677c7c5ca7237af0e4\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\126f080b2641c96f49f155eb01d875bc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\126f080b2641c96f49f155eb01d875bc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\3ac8c03094f6ba0f0a7e6c1d86798a6f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\3ac8c03094f6ba0f0a7e6c1d86798a6f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\c395e7e1015ee83acecf070a1d54b71a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\9e2a65209f6221677c7c5ca7237af0e4\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
@@ -183,102 +215,126 @@ uses-sdk
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\540a8c1c5153d5d017fb64d914df643c\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\540a8c1c5153d5d017fb64d914df643c\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\a9a0195e710ecef197a3d3b1bf4c1086\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\a9a0195e710ecef197a3d3b1bf4c1086\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\394bb91a0dbf29de2a48cd3ef978c15e\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\394bb91a0dbf29de2a48cd3ef978c15e\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9032eb26f6a6c7a4bfd82a7fa38b9b82\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9032eb26f6a6c7a4bfd82a7fa38b9b82\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\bab19bd7aaf1bb7e590851957c6565b1\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\bab19bd7aaf1bb7e590851957c6565b1\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\b8cd85d2a7a6ab8095bc531dab4e9d3a\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\b8cd85d2a7a6ab8095bc531dab4e9d3a\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\a098b3756dc3c802e23d3ab9c217ff80\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\a098b3756dc3c802e23d3ab9c217ff80\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\71f7917d96a147ad9b705b511ac08890\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\71f7917d96a147ad9b705b511ac08890\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\latia\.gradle\caches\transforms-3\4b73ce9eff7e0ac11c80a66b866148a4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\latia\.gradle\caches\transforms-3\4b73ce9eff7e0ac11c80a66b866148a4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\latia\.gradle\caches\transforms-3\7d131887c95c2dfcb825606cbfe91be0\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\latia\.gradle\caches\transforms-3\7d131887c95c2dfcb825606cbfe91be0\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\48204502659ddcfe2c1ed26b5f07a3cb\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\48204502659ddcfe2c1ed26b5f07a3cb\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\09bb05522ab9ed14de934256bd490914\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\09bb05522ab9ed14de934256bd490914\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\0151853135f5a5ae21703e8ceabbb462\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\0151853135f5a5ae21703e8ceabbb462\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\84dbddc47388b5a3b606603281a63276\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\84dbddc47388b5a3b606603281a63276\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9da6fbda6256f9b202670d6fe140f71e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9da6fbda6256f9b202670d6fe140f71e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\latia\.gradle\caches\transforms-3\95b45af99fdd1b60bc3ff9231ca34e0d\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\latia\.gradle\caches\transforms-3\95b45af99fdd1b60bc3ff9231ca34e0d\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\ec1a8458c334bc293681e2985fbf3822\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\ec1a8458c334bc293681e2985fbf3822\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\66ba7a42555abfb3935ab156e2a4355c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\66ba7a42555abfb3935ab156e2a4355c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\140702ac86541f5993a76040590ab567\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\140702ac86541f5993a76040590ab567\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\197f87cb7268773b3b0c1b833783b2dc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\197f87cb7268773b3b0c1b833783b2dc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\1f7f09c1e1d8e513ae991adf8f25cb0c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\1f7f09c1e1d8e513ae991adf8f25cb0c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\e345040ee48c841f52720c7ce2184282\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\e345040ee48c841f52720c7ce2184282\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\dea58a4c40e01c646bb81a349f637ec7\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\dea58a4c40e01c646bb81a349f637ec7\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\c395e7e1015ee83acecf070a1d54b71a\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\c395e7e1015ee83acecf070a1d54b71a\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\84007f80b9605b813bc0b6e7b74e4e5e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\84007f80b9605b813bc0b6e7b74e4e5e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\fb0667501aa866eb219effb3b54f7e7e\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\fb0667501aa866eb219effb3b54f7e7e\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\2439ed788c0c0369dabaa5f75eab7ef7\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\2439ed788c0c0369dabaa5f75eab7ef7\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\8c33376f8ebda83e8b0d07d2d89d5cd3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\8c33376f8ebda83e8b0d07d2d89d5cd3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\98aa0d5e335cd35005e8108b145b7094\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\98aa0d5e335cd35005e8108b145b7094\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\latia\.gradle\caches\transforms-3\3c454eaf35d75e22bb41dd4c0e6fbd83\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\latia\.gradle\caches\transforms-3\3c454eaf35d75e22bb41dd4c0e6fbd83\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\fd3020fb0c3813a30976ce233d92f08f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\fd3020fb0c3813a30976ce233d92f08f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f18f00048a331952d6b5e2f2266303e5\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f18f00048a331952d6b5e2f2266303e5\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\58c86896ae7868327911e1299466a239\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\58c86896ae7868327911e1299466a239\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\latia\.gradle\caches\transforms-3\320113c44b5c30d51d06ede13d039f26\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\latia\.gradle\caches\transforms-3\320113c44b5c30d51d06ede13d039f26\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\b034e4fc17faa503e0049f62a8592bbe\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\b034e4fc17faa503e0049f62a8592bbe\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\ced4f0ea8ee1f91a9616285d0fd6bb8e\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\ced4f0ea8ee1f91a9616285d0fd6bb8e\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\latia\.gradle\caches\transforms-3\aa7f1a3579fc37b910ddc34844b6f85a\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\latia\.gradle\caches\transforms-3\aa7f1a3579fc37b910ddc34844b6f85a\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\918af422cdd17aaaa491dc242d3493d4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\918af422cdd17aaaa491dc242d3493d4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\88d25585235328f8469fd149ae7919cc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\88d25585235328f8469fd149ae7919cc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\facc28cfdf6fdec56455cfa648c73964\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\facc28cfdf6fdec56455cfa648c73964\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\a763fa15081ac9087661d76fe7bc2810\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\a763fa15081ac9087661d76fe7bc2810\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\05e144d6e24ed0071ccbbb957eaa3547\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\05e144d6e24ed0071ccbbb957eaa3547\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\08543c00b3cf7ccf8eaa47772c17792b\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\latia\.gradle\caches\transforms-3\08543c00b3cf7ccf8eaa47772c17792b\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\008bb01919eacaad75cee55b00cad0d4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\latia\.gradle\caches\transforms-3\008bb01919eacaad75cee55b00cad0d4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\0c33b3aefe4a0dffd56f5d4cde657a77\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\0c33b3aefe4a0dffd56f5d4cde657a77\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bee93c75ad3c32bb880a4e0933f87829\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bee93c75ad3c32bb880a4e0933f87829\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\67895ea9320779269cbd99d95f8d7a9e\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\latia\.gradle\caches\transforms-3\67895ea9320779269cbd99d95f8d7a9e\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\431535abcb480845b4443539e90c07dd\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\latia\.gradle\caches\transforms-3\431535abcb480845b4443539e90c07dd\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\024b3f5af1923bfca4c5a1de67e3bfc6\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\024b3f5af1923bfca4c5a1de67e3bfc6\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\543d64382cee7ec4c1641a4b45a2f456\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\543d64382cee7ec4c1641a4b45a2f456\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\0862ffbd0ce6e4134278414dbe2abc45\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\0862ffbd0ce6e4134278414dbe2abc45\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\299914a2fb3a4a58190b3f6a7ffe95e2\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\299914a2fb3a4a58190b3f6a7ffe95e2\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\3f5af08c98eada2b7113e94141e4462d\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\3f5af08c98eada2b7113e94141e4462d\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a116bde165d7cfca9ba520ecdba38d70\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a116bde165d7cfca9ba520ecdba38d70\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bb4bfe1772c1c3442b98e0b3b9e8595a\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\bb4bfe1772c1c3442b98e0b3b9e8595a\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\latia\.gradle\caches\transforms-3\03255fbeac449eb323cf92caf70a269f\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\latia\.gradle\caches\transforms-3\03255fbeac449eb323cf92caf70a269f\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\latia\.gradle\caches\transforms-3\ca6a5f61971d2a4d4d547deaec0be952\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\latia\.gradle\caches\transforms-3\ca6a5f61971d2a4d4d547deaec0be952\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\latia\.gradle\caches\transforms-3\b0e48fdcca110c933cd1359c72494a30\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\latia\.gradle\caches\transforms-3\b0e48fdcca110c933cd1359c72494a30\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\latia\.gradle\caches\transforms-3\e19e90b1280a7300980eedede2a4d477\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\latia\.gradle\caches\transforms-3\e19e90b1280a7300980eedede2a4d477\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\13db225d78985d9a6d4da3fb72ac672b\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\latia\.gradle\caches\transforms-3\13db225d78985d9a6d4da3fb72ac672b\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\b93c418b826e614beb4e0ece37eaed15\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\b93c418b826e614beb4e0ece37eaed15\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\c7b3b592d2f1e25d7ec336f280b846b3\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\c7b3b592d2f1e25d7ec336f280b846b3\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\12b19370df78f3fdc4f269a3e0b9ae3d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\12b19370df78f3fdc4f269a3e0b9ae3d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\803b4a572911039773ab499104749295\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\803b4a572911039773ab499104749295\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\latia\.gradle\caches\transforms-3\24c25723556697de7fb7c87546dddd00\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\latia\.gradle\caches\transforms-3\24c25723556697de7fb7c87546dddd00\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\64a8a4b3fcdc5c1c513df62ce34b0844\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\64a8a4b3fcdc5c1c513df62ce34b0844\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\72031f99ad63f188339a8869cd525620\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\72031f99ad63f188339a8869cd525620\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\8d79eedecf3912237fcdb4d9b5e07021\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\8d79eedecf3912237fcdb4d9b5e07021\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\657dc82e1d794c01cf19c4697906e5ec\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\657dc82e1d794c01cf19c4697906e5ec\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\8f58dceb31db4860d366f6a95e5bf4db\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\8f58dceb31db4860d366f6a95e5bf4db\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\8193879396ddc9bbe68686d4fd364311\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\8193879396ddc9bbe68686d4fd364311\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e9c10c215e32ed6ab99f6169634bcd4e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e9c10c215e32ed6ab99f6169634bcd4e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\9e2a65209f6221677c7c5ca7237af0e4\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\latia\.gradle\caches\transforms-3\9e2a65209f6221677c7c5ca7237af0e4\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f53b33f037488d671bedb06d9391d3a8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f53b33f037488d671bedb06d9391d3a8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\098f60461b6c84bf62c410701554dccc\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\098f60461b6c84bf62c410701554dccc\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\54ce17ef195cb0c638878e384f82d43b\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\54ce17ef195cb0c638878e384f82d43b\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\a637f5e6f7fd082250870e207fd1c72f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\a637f5e6f7fd082250870e207fd1c72f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e40167b83188e06e0ff736546b5c3b9a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e40167b83188e06e0ff736546b5c3b9a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\latia\.gradle\caches\transforms-3\a0e240e38387ed99dfa04798224123a0\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\latia\.gradle\caches\transforms-3\a0e240e38387ed99dfa04798224123a0\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\126f080b2641c96f49f155eb01d875bc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\latia\.gradle\caches\transforms-3\126f080b2641c96f49f155eb01d875bc\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\3ac8c03094f6ba0f0a7e6c1d86798a6f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\3ac8c03094f6ba0f0a7e6c1d86798a6f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\74cecff5e3d1de95ba84fe96b6f3c9b3\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\74cecff5e3d1de95ba84fe96b6f3c9b3\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\latia\.gradle\caches\transforms-3\a9fde76631bcbfd7fcdf50cc1ec8668f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\latia\.gradle\caches\transforms-3\a9fde76631bcbfd7fcdf50cc1ec8668f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\8e4c2a9ff39fe296351dc73a1722f946\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\latia\.gradle\caches\transforms-3\8e4c2a9ff39fe296351dc73a1722f946\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\7a00735b4c9b1d39aa1d5fe5944c5c32\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\7a00735b4c9b1d39aa1d5fe5944c5c32\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\latia\.gradle\caches\transforms-3\9f99803712ff9fa73b4f38ca024808f7\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\latia\.gradle\caches\transforms-3\9f99803712ff9fa73b4f38ca024808f7\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\65c00f5ca4727dbff6a88089e1fd9dd3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\65c00f5ca4727dbff6a88089e1fd9dd3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9ef73b1283b63fd8534856b80d21fcae\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\9ef73b1283b63fd8534856b80d21fcae\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e3f8adc82b80b66c2c7bc5c86640857d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\e3f8adc82b80b66c2c7bc5c86640857d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\a5eb6cd887cb271305ae89fa0615ff65\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\a5eb6cd887cb271305ae89fa0615ff65\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\78c00a931992e83f7d259cc4b39dbe94\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\latia\.gradle\caches\transforms-3\78c00a931992e83f7d259cc4b39dbe94\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -290,80 +346,168 @@ INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifes
 		ADDED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\latia\StudioProjects\Kaki_app\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:37:13-32
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:37:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.firebase:firebase-database:20.0.5] C:\Users\latia\.gradle\caches\transforms-3\0fb7a72fb7e74fa6d5f22e9db9d166a7\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a116bde165d7cfca9ba520ecdba38d70\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a116bde165d7cfca9ba520ecdba38d70\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\93e1feea7e0246d4b52beeb193ae3388\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\d4019171538e67797d4207d83093678d\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\latia\.gradle\caches\transforms-3\e946c7074e8c3d42c57afc3ad9444294\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f18f00048a331952d6b5e2f2266303e5\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f18f00048a331952d6b5e2f2266303e5\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\latia\.gradle\caches\transforms-3\05679fa44c6c372354d628bfb4d45b21\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\latia\.gradle\caches\transforms-3\9ac16106f6ef8e49d2e561fc6e384635\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\59c29fa7093149000ee21087e3e4b369\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\latia\.gradle\caches\transforms-3\f89f5c883b848eb1fd77bc02b2fc1971\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\latia\.gradle\caches\transforms-3\a3de32b0e59fd38d7746bb2a30b305bb\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\3ac8c03094f6ba0f0a7e6c1d86798a6f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\3ac8c03094f6ba0f0a7e6c1d86798a6f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\f7fe229e2db298ac11bf7563144c1d40\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\latia\.gradle\caches\transforms-3\7adf2521b601b43c4c0f7cf1a103ec65\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\488f7c30a09a80966b1d0da3b7ccf544\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\latia\.gradle\caches\transforms-3\0af3b6a53fed7c4036ceb7b81dec7aa6\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
