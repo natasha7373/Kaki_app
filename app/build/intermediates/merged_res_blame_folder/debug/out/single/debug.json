@@ -1,178 +1,186 @@
 [
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/font_futura_bold.ttf.flat",
-        "source": "com.example.kakihomeui.app-main-30:/font/futura_bold.ttf"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.kakihomeui.app-pngs-23:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.kakihomeui.app-merged_res-38:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.kakihomeui.app-main-40:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_round_footer.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/round_footer.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_ic_baseline_friend_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\ic_baseline_friend_24.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_ic_baseline_friend_24.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/ic_baseline_friend_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_round_facebook.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/round_facebook.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_friends.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_friends.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_chat.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_chat.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_round_header.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\round_header.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_sign_in.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_ic_baseline_profile_24.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/ic_baseline_profile_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\ic_baseline_home_24.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_rounded_corner.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/rounded_corner.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_intro.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_intro.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_profile.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_profile.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_addpost1.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_addpost1.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-pngs-33:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_round_header.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/round_header.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_round_login.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\round_login.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_friends.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_friends.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_ic_baseline_west.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/ic_baseline_west.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_ic_baseline_add_24.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/ic_baseline_add_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/xml_backup_rules.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_round_next.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\round_next.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable-v24_top_head.png.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable-v24/top_head.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\rounded_corner.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_side_headlogo.png.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/side_headlogo.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable-v24_top_head.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable-v24\\top_head.png"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_intro.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_intro.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_ic_baseline_west.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\ic_baseline_west.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/menu_footer_navmenu.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/menu/footer_navmenu.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_ic_baseline_profile_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\ic_baseline_profile_24.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_round_login.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/round_login.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_sign_up.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\menu_footer_navmenu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\menu\\footer_navmenu.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_header.png.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/header.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_side_headlogo.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\side_headlogo.png"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_round_forum.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/round_forum.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_ic_baseline_chat_bubble_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\ic_baseline_chat_bubble_24.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_ic_baseline_home_24.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/ic_baseline_home_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_round_facebook.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\round_facebook.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\font_futura_bold.ttf.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\font\\futura_bold.ttf"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_round_next.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/round_next.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\activity_chat.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_logo_8.png.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/logo_8.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_logo_8.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\logo_8.png"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_addpost1.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_addpost1.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\layout_forum_post.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\layout\\forum_post.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_forum_post.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/forum_post.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_header.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\header.png"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.kakihomeui.app-merged_res-38:/layout_activity_addpost1.xml.flat",
+        "source": "com.example.kakihomeui.app-main-40:/layout/activity_addpost1.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_round_forum.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\round_forum.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/drawable_ic_baseline_chat_bubble_24.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/drawable/ic_baseline_chat_bubble_24.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/layout_activity_main.xml.flat",
-        "source": "com.example.kakihomeui.app-main-30:/layout/activity_main.xml"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\ic_baseline_add_24.xml"
     },
     {
-        "merged": "com.example.kakihomeui.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.kakihomeui.app-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-merged_res-38:\\drawable_round_footer.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.3.3\\com.example.kakihomeui.app-main-40:\\drawable\\round_footer.xml"
     }
 ]

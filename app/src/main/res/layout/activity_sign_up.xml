@@ -136,7 +136,7 @@
         android:orientation="vertical">
 
 
-        <Button
+        <TextView
             android:id="@+id/sign_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -148,9 +148,10 @@
             android:textSize="27dp" />
 
 
+
     </LinearLayout>
 
-    <Button
+    <TextView
         android:id="@+id/sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

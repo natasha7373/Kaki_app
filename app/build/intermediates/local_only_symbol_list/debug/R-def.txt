@@ -69,7 +69,6 @@ id sign_up
 id signup
 id signup_header
 id signup_subheader
-id submit
 id textView3
 id textView4
 id textView6

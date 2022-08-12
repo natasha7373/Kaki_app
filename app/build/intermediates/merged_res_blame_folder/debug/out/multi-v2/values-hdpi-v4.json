@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kakihomeui.app-mergeDebugResources-26:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.example.kakihomeui.app-mergeDebugResources-36:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\latia\\.gradle\\caches\\transforms-3\\0c33b3aefe4a0dffd56f5d4cde657a77\\transformed\\appcompat-1.4.2\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\a58170a1471342555e6a6c6c23d8eee9\\transformed\\appcompat-1.5.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
