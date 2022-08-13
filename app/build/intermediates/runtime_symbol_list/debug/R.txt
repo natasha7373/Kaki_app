@@ -4019,6 +4019,8 @@ int style Theme_AppCompat_Light_Dialog_MinWidth 0x7f12020f
 int style Theme_AppCompat_Light_DialogWhenLarge 0x7f120210
 int style Theme_AppCompat_Light_NoActionBar 0x7f120211
 int style Theme_AppCompat_NoActionBar 0x7f120212
+int style Theme_AppInvite_Preview 0x7f120423
+int style Theme_AppInvite_Preview_Base 0x7f120424
 int style Theme_Design 0x7f120213
 int style Theme_Design_BottomSheetDialog 0x7f120214
 int style Theme_Design_Light 0x7f120215

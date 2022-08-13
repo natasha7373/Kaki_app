@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kakihomeui.app-mergeDebugResources-36:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.kakihomeui.app-mergeDebugResources-37:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\a58170a1471342555e6a6c6c23d8eee9\\transformed\\appcompat-1.5.0\\res\\values-en-rGB\\values-en-rGB.xml",

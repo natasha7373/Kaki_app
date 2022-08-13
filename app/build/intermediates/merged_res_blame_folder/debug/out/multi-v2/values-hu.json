@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kakihomeui.app-mergeDebugResources-36:/values-hu/values-hu.xml",
+            "outputFile": "com.example.kakihomeui.app-mergeDebugResources-37:/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\9ac16106f6ef8e49d2e561fc6e384635\\transformed\\play-services-base-18.0.1\\res\\values-hu\\values.xml",
