@@ -52,7 +52,7 @@
             android:textSize="24dp" />
 
         <TextView
-            android:id="@+id/notice_title"
+            android:id="@+id/notice_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/signup_subheader"
@@ -66,28 +66,28 @@
 
 
         <EditText
-            android:id="@+id/noticetitlebanner"
+            android:id="@+id/noticedescbanner"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_below="@id/notice_title"
+            android:layout_below="@id/notice_desc"
             android:layout_marginStart="10dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rounded_corner"
             android:fontFamily="@font/futura_bold"
-
+            android:gravity="top"
             android:hint="e.g Mahjong players for a CC event. Join us for a fun night."
             android:padding="20dp"
             android:textColorHint="#8F050505"
             android:textSize="28dp" />
 
         <TextView
-            android:id="@+id/location"
+            android:id="@+id/attendee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/noticetitlebanner"
-            android:text="Location"
+            android:layout_below="@id/noticedescbanner"
+            android:text="Number of Attendees"
             android:textSize="30dp"
             android:fontFamily="@font/futura_bold"
             android:textColor="@color/black"
@@ -96,38 +96,47 @@
             android:layout_marginLeft="20dp"/>
 
         <EditText
-            android:id="@+id/location_banner"
+            android:id="@+id/attendee_banner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/location"
+            android:layout_below="@id/attendee"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rounded_corner"
             android:fontFamily="@font/futura_bold"
-            android:hint="Pick a Location"
             android:padding="20dp"
             android:textColorHint="#8F050505"
             android:textSize="28dp" />
 
-
-
-
-
-
-
         <TextView
-            android:id="@+id/sign_up"
-            android:layout_width="wrap_content"
+            android:id="@+id/back"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/time_banner"
-            android:layout_marginStart="300dp"
-            android:layout_marginTop="20dp"
+            android:layout_below="@id/attendee_banner"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_back"
+            android:fontFamily="@font/futura_bold"
+            android:hint="BACK"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColorHint="#EE5C54"
+            android:textSize="35dp" />
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/attendee_banner"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/round_next"
             android:fontFamily="@font/futura_bold"
-            android:hint="NEXT"
+            android:hint="POST"
             android:padding="10dp"
             android:textAlignment="center"
             android:textColorHint="#FFFFFF"
