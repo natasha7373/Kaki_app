@@ -188,8 +188,8 @@
         android:background="@drawable/round_facebook"
         android:fontFamily="@font/futura_bold"
         android:hint="FACEBOOK"
-        android:textAlignment="center"
         android:padding="10dp"
+        android:textAlignment="center"
         android:textColorHint="#FFFFFF"
         android:textSize="28dp" />
 

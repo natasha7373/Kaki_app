@@ -125,6 +125,7 @@
             android:textAlignment="center"
             android:textColorHint="#EE5C54"
             android:textSize="35dp" />
+
         <TextView
             android:id="@+id/next"
             android:layout_width="100dp"
