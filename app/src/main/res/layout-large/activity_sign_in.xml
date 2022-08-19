@@ -43,7 +43,7 @@
         android:textSize="40dp" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/phone_num"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView4"
@@ -53,7 +53,7 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/rounded_corner"
         android:fontFamily="@font/futura_bold"
-        android:hint="EMAIL"
+        android:hint="PHONE NUMBER"
         android:padding="20dp"
         android:textColorHint="#8F050505"
         android:textSize="28dp" />
@@ -62,7 +62,7 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/email"
+        android:layout_below="@id/phone_num"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
@@ -126,8 +126,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="401dp"
-        android:layout_height="300dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_below="@id/password"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
@@ -156,6 +156,7 @@
             android:textColor="#EE5C54"
             android:textSize="27dp" />
 
+
     </LinearLayout>
 
     <TextView
@@ -176,7 +177,7 @@
         android:textSize="28dp" />
 
     <TextView
-        android:id="@+id/google"
+        android:id="@+id/facebook"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/log_in"
@@ -184,11 +185,11 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/btn_google_signin_dark_normal_hdpi"
+        android:background="@drawable/round_facebook"
         android:fontFamily="@font/futura_bold"
-        android:hint="Sign In with Google"
-        android:textAlignment="center"
+        android:hint="FACEBOOK"
         android:padding="10dp"
+        android:textAlignment="center"
         android:textColorHint="#FFFFFF"
         android:textSize="28dp" />
 

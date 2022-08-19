@@ -3,23 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/drawable/round_facebook.xml" value="0.244" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout-large/activity_addpost1.xml" value="0.17109375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout-large/activity_intro.xml" value="0.175390625" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout-large/activity_main.xml" value="0.17109375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout-large/activity_sign_in.xml" value="0.175390625" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_addpost1.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_addpost2.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_intro.xml" value="0.2484375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_profile.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_sign_in.xml" value="0.18" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/layout/activity_sign_up.xml" value="0.2821557971014493" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/Kaki_app/app/src/main/res/menu/footer_navmenu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/latia/StudioProjects/Kaki_app/app/src/main/res/layout/activity_addpost1.xml" value="0.3625" />
         <entry key="..\:/Users/latia/StudioProjects/Kaki_app/app/src/main/res/layout/activity_profile.xml" value="0.254981884057971" />
         <entry key="..\:/Users/latia/StudioProjects/Kaki_app/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="..\:/Users/latia/StudioProjects/Kaki_app/app/src/main/res/layout/forum_post.xml" value="0.1452152110321772" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/round_back.xml" value="0.1545" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/round_desc.xml" value="0.1545" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/round_next.xml" value="0.1545" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/rounded_corner.xml" value="0.1545" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_addpost1.xml" value="0.14407866609662248" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_addpost2.xml" value="0.14407866609662248" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_friends.xml" value="0.14407866609662248" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_intro.xml" value="0.14407866609662248" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_main.xml" value="0.14407866609662248" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_sign_in.xml" value="0.14407866609662248" />
       </map>
     </option>
   </component>

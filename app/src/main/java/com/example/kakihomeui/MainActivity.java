@@ -7,14 +7,65 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
+    // creating constant keys for shared preferences.
+    public static final String SHARED_PREFS = "shared_prefs";
+
+    // key for storing email.
+    public static final String EMAIL_KEY = "email_key";
+
+    // key for storing password.
+    public static final String PASSWORD_KEY = "password_key";
+
+    SharedPreferences sharedpreferences;
+    String semail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // initializing our shared preferences.
+        sharedpreferences = getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE);
+
+        // getting data from shared prefs and
+        // storing it in our string variable.
+        semail = sharedpreferences.getString(EMAIL_KEY, null);
+
+        // initializing our textview and button.
+        TextView welcomeTV = findViewById(R.id.idTVWelcome);
+        welcomeTV.setText("Welcome \n"+semail);
+        Button logoutBtn = findViewById(R.id.idBtnLogout);
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // calling method to edit values in shared prefs.
+                SharedPreferences.Editor editor = sharedpreferences.edit();
+
+                // below line will clear
+                // the data in shared prefs.
+                editor.clear();
+
+                // below line will apply empty
+                // data to shared prefs.
+                editor.apply();
+
+                Intent i = new Intent(MainActivity.this, sign_in.class);
+                startActivity(i);
+                finish();
+            }
+        });
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
 

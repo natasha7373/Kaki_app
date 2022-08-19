@@ -7,41 +7,11 @@
     android:visibility="visible"
     tools:context=".MainActivity">
 
-    <!--Textview for displaying
-    user's email address-->
-    <TextView
-        android:id="@+id/idTVWelcome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:padding="5dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textColor="#FFFFFF"
-        android:fontFamily="@font/futura_bold"
-        android:background="#EE5C54" />
-
-    <!--button for logging out of the app-->
-    <Button
-        android:id="@+id/idBtnLogout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/idTVWelcome"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:text="@string/Logout"
-        app:backgroundTint="#EE5C54"
-        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"/>
-
     <TextView
         android:id="@+id/new_post"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="400dp"
+        android:layout_marginBottom="800dp"
         android:fontFamily="@font/futura_bold"
         android:gravity="center"
         android:text="NEW POSTS"
@@ -66,7 +36,7 @@
 
         <EditText
             android:id="@+id/search_bar"
-            android:layout_width="240dp"
+            android:layout_width="590dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="50dp"
@@ -106,12 +76,12 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
-        android:layout_width="412dp"
+        android:layout_width="800dp"
         android:layout_height="120dp"
         android:background="@drawable/round_footer"
         android:labelFor="@id/frameLayout"
-        android:paddingBottom="35dp"
-        app:itemIconSize="33dp"
+        android:paddingBottom="15dp"
+        app:itemIconSize="53dp"
         app:itemIconTint="@color/white"
         app:itemTextColor="#FFFFFF"
         app:labelVisibilityMode="labeled"
@@ -124,5 +94,5 @@
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
 
+</androidx.constraintlayout.widget.ConstraintLayout>
