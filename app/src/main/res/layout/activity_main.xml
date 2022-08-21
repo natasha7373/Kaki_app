@@ -64,6 +64,7 @@
             android:layout_height="150dp"
             app:srcCompat="@drawable/side_headlogo" />
 
+
         <EditText
             android:id="@+id/search_bar"
             android:layout_width="240dp"

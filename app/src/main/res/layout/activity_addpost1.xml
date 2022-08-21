@@ -56,13 +56,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/signup_subheader"
-            android:text="Notice Title"
-            android:textSize="30dp"
-            android:fontFamily="@font/futura_bold"
-            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"/>
+            android:fontFamily="@font/futura_bold"
+            android:text="Notice Title"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
 
 
         <EditText
@@ -86,13 +86,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/noticetitlebanner"
-            android:text="Location"
-            android:textSize="30dp"
-            android:fontFamily="@font/futura_bold"
-            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"/>
+            android:fontFamily="@font/futura_bold"
+            android:text="Location"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
 
         <EditText
             android:id="@+id/location_banner"
@@ -114,13 +114,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/location_banner"
-            android:text="Date"
-            android:textSize="30dp"
-            android:fontFamily="@font/futura_bold"
-            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"/>
+            android:fontFamily="@font/futura_bold"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
 
         <EditText
             android:id="@+id/date_banner"
@@ -142,13 +142,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/date_banner"
-            android:text="Time"
-            android:textSize="30dp"
-            android:fontFamily="@font/futura_bold"
-            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"/>
+            android:fontFamily="@font/futura_bold"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
 
         <EditText
             android:id="@+id/time_banner"
@@ -165,6 +165,64 @@
             android:textColorHint="#8F050505"
             android:textSize="28dp" />
 
+        <TextView
+            android:id="@+id/notice_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signup_subheader"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/futura_bold"
+            android:text="Notice Description"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+        <EditText
+            android:id="@+id/noticedescbanner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/notice_desc"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/futura_bold"
+            android:gravity="top"
+            android:hint="e.g Mahjong players for a CC event. Join us for a fun night."
+            android:padding="20dp"
+            android:textColorHint="#8F050505"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/attendee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/noticedescbanner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/futura_bold"
+            android:text="Number of Attendees"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/attendee_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/attendee"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/futura_bold"
+            android:padding="20dp"
+            android:textColorHint="#8F050505"
+            android:textSize="28dp" />
+
 
         <TextView
             android:id="@+id/sign_up"
@@ -172,16 +230,16 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/time_banner"
             android:layout_marginStart="300dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="420dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/round_next"
             android:fontFamily="@font/futura_bold"
-            android:hint="NEXT"
+            android:hint="POST"
             android:padding="10dp"
             android:textAlignment="center"
             android:textColorHint="#FFFFFF"
-            android:textSize="35dp" />
+            android:textSize="34dp" />
 
         <ImageButton
             android:id="@+id/exit"

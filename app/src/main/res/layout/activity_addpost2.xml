@@ -56,13 +56,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/signup_subheader"
-            android:text="Notice Description"
-            android:textSize="30dp"
-            android:fontFamily="@font/futura_bold"
-            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"/>
+            android:fontFamily="@font/futura_bold"
+            android:text="Notice Description"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
 
 
         <EditText
@@ -87,13 +87,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/noticedescbanner"
-            android:text="Number of Attendees"
-            android:textSize="30dp"
-            android:fontFamily="@font/futura_bold"
-            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"/>
+            android:fontFamily="@font/futura_bold"
+            android:text="Number of Attendees"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
 
         <EditText
             android:id="@+id/attendee_banner"
