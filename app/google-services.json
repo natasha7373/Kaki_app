@@ -15,7 +15,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "46655526232-noiv2582r0v9jb2esmdurii8r1266tco.apps.googleusercontent.com",
+          "client_id": "46655526232-4pl1i4e0u2pcjm6k1cd9vd0bps03cptn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kakihomeui",
+            "certificate_hash": "06020030309c61f5e150c3f8c2e13047d843aa36"
+          }
+        },
+        {
+          "client_id": "46655526232-bbit1l4642evc09e669ff9anrs4id5ov.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -28,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "46655526232-noiv2582r0v9jb2esmdurii8r1266tco.apps.googleusercontent.com",
+              "client_id": "46655526232-bbit1l4642evc09e669ff9anrs4id5ov.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

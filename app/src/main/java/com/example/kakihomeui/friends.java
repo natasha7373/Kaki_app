@@ -46,7 +46,7 @@ public class friends extends AppCompatActivity {
                         return true;
                     case R.id.post:
                         startActivity(new Intent(getApplicationContext()
-                                ,addpost1.class));
+                                , addpost.class));
                         overridePendingTransition(0,0);
                         return true;
                 }

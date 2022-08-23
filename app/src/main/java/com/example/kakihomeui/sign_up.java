@@ -1,44 +1,33 @@
 package com.example.kakihomeui;
 
-import java.time.format.DateTimeFormatter;
-import java.time.LocalDateTime;
-
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.util.Log;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 
 public class sign_up extends AppCompatActivity {
-    EditText full_name,phone_number,password,password_conf;
+    EditText email,phone_number,password,password_conf;
 
     private ProgressDialog loadingBar;
     FirebaseAuth mAuth;
@@ -55,7 +44,7 @@ public class sign_up extends AppCompatActivity {
 
         user=mAuth.getCurrentUser();
 
-        full_name=findViewById(R.id.full_name);
+        email=findViewById(R.id.email);
         phone_number=findViewById(R.id.phone_number);
         password=findViewById(R.id.password);
         password_conf=findViewById(R.id.password_conf);
@@ -79,26 +68,25 @@ public class sign_up extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String name,pass,cpass,phone;
-                name=full_name.getText().toString();
-                pass=password.getText().toString();
-                cpass=password_conf.getText().toString();
-                phone=phone_number.getText().toString();
+                name=email.getText().toString().trim();
+                pass=password.getText().toString().trim();
+                cpass=password_conf.getText().toString().trim();
+                phone=phone_number.getText().toString().trim();
                 registerNewUser(name,pass,cpass,phone);
+
             }
         });
     }
 
     @RequiresApi(api = Build.VERSION_CODES.O)
-    private void storeUserOnFireBase(String userName, String phoneNumber, String password, String userID){
+    private void storeUserOnFireBase(String email, String phoneNumber, String password, String userID, String date){
         final FirebaseDatabase database=FirebaseDatabase.getInstance("https://kaki-real-default-rtdb.asia-southeast1.firebasedatabase.app");
-        //DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-        //LocalDateTime now = LocalDateTime.now();
         UsersReference=database.getReference().child("Users").child(userID);
         HashMap userMap=new HashMap();
-        userMap.put("userName",userName);
+        userMap.put("email",email);
         userMap.put("phoneNumber",phoneNumber);
         userMap.put("password",password);
-        //userMap.put("registeredDate",dtf.format(now));
+        userMap.put("registeredDate",date);
 
         UsersReference.updateChildren(userMap).addOnCompleteListener(new OnCompleteListener() {
             @Override
@@ -118,8 +106,8 @@ public class sign_up extends AppCompatActivity {
     public void registerNewUser(String name, String pass, String cpass, String phone)
     {
         if(TextUtils.isEmpty(name)){
-            full_name.setError("Please enter full name.");
-            full_name.requestFocus();
+            email.setError("Please enter full name.");
+            email.requestFocus();
             return;
         }
         else if(TextUtils.isEmpty(pass)){
@@ -151,15 +139,20 @@ public class sign_up extends AppCompatActivity {
                         if (task.isSuccessful()) {
 
                             currentUserID=mAuth.getCurrentUser().getUid();
-                            String name,pass,phone;
-                            name=full_name.getText().toString();
-                            pass=password.getText().toString();
-                            phone=phone_number.getText().toString();
+                            String name,pass,phone,date;
+                            name=email.getText().toString().trim();
+                            pass=password.getText().toString().trim();
+                            phone=phone_number.getText().toString().trim();
+                            date = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
 
-                            storeUserOnFireBase(name,phone,pass,currentUserID);
+                            storeUserOnFireBase(name,phone,pass,currentUserID,date);
 
                             loadingBar.dismiss();
-                            Toast.makeText(getApplicationContext(),"Okay.",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"Account created",Toast.LENGTH_LONG).show();
+                            Intent i=new Intent(sign_up.this,sign_in.class);
+                            startActivity(i);
+                            finish();
+
 
                         } else {
                             loadingBar.dismiss();
