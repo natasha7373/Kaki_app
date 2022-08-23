@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -60,7 +61,8 @@ public class sign_in extends AppCompatActivity {
 
     EditText email, password;
     CheckBox remember;
-    Button login, forgetPass, signUp, googleSignInButton;
+    TextView login, forgetPass;
+    TextView googleSignInButton, signUp;
     private ProgressDialog loadingBar;
 
 
