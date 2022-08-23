@@ -155,6 +155,11 @@ public class sign_in extends AppCompatActivity {
                 Lusnm = email.getText().toString().trim();
                 Lpass = password.getText().toString().trim();
                 Login(Lusnm, Lpass);
+
+                SharedPreferences.Editor editor = sharedpreferences.edit();
+                editor.putString(EMAIL_KEY, email.getText().toString());
+                editor.putString(PASSWORD_KEY, password.getText().toString());
+                editor.apply();
             }
         });
 
@@ -364,6 +369,14 @@ public class sign_in extends AppCompatActivity {
                 }
             }
         });
+    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (semail != null && spassword != null) {
+            Intent i = new Intent(sign_in.this, MainActivity.class);
+            startActivity(i);
+        }
     }
 }
 
