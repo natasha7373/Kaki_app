@@ -1,6 +1,9 @@
 package com.example.kakihomeui;
 
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -39,6 +42,18 @@ public class addpost extends AppCompatActivity {
     EditText title, location, date, time, desc, attendees;
     private ProgressDialog loadingBar;
 
+    // creating constant keys for shared preferences.
+    public static final String SHARED_PREFS = "shared_prefs";
+
+    // key for storing email.
+    public static final String EMAIL_KEY = "email_key";
+
+    // key for storing password.
+    public static final String PASSWORD_KEY = "password_key";
+
+    SharedPreferences sharedpreferences;
+    String semail;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +71,12 @@ public class addpost extends AppCompatActivity {
         desc = findViewById(R.id.noticedescbanner);
         attendees = findViewById(R.id.attendee_banner);
         submit = findViewById(R.id.post);
+        // initializing our shared preferences.
+        sharedpreferences = getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE);
 
+        // getting data from shared prefs and
+        // storing it in our string variable.
+        semail = sharedpreferences.getString(EMAIL_KEY, null);
         loadingBar = new ProgressDialog(this);
 
         submit.setOnClickListener(new View.OnClickListener() {
@@ -100,27 +120,26 @@ public class addpost extends AppCompatActivity {
             attendees.requestFocus();
             return;
         } else {
+            loadingBar.setTitle("Create New Post");
+            loadingBar.setMessage("Please wait, while we create your new post.");
+            loadingBar.show();
+            loadingBar.setCanceledOnTouchOutside(false);
             addPostToDB(postTitle, postLocation, postDate, postTime, postDesc, postAttendees);
         }
-
-        loadingBar.setTitle("Create New Post");
-        loadingBar.setMessage("Please wait, while we create your new post.");
-        loadingBar.show();
-        loadingBar.setCanceledOnTouchOutside(false);
     }
 
-    private void addPostToDB(final String postTitle, final String postLocation, final String postDate, final String postTime, final String postDesc, final String postAttendees) {
+    public void addPostToDB(final String postTitle, final String postLocation, final String postDate, final String postTime, final String postDesc, final String postAttendees) {
+        final FirebaseDatabase database=FirebaseDatabase.getInstance("https://kaki-real-default-rtdb.asia-southeast1.firebasedatabase.app");
         UsersRef.child(currentUserID).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot.exists()){
-                    String email=dataSnapshot.child("email").getValue().toString();
+                    String email= semail;
                     Calendar calForDate = Calendar.getInstance();
                     SimpleDateFormat currentDate = new SimpleDateFormat("dd-MMM-yy");
                     final String saveCurrentDate = currentDate.format(calForDate.getTime());
 
-                    final FirebaseDatabase database=FirebaseDatabase.getInstance();
-                    UsersReference=database.getReference().child("Posts");
+                    UsersReference=database.getReference().child("Posts").child("postID");
                     String postID = UsersReference.push().getKey();
                     HashMap userMap = new HashMap();
                     userMap.put("email", email);
@@ -136,7 +155,10 @@ public class addpost extends AppCompatActivity {
                         public void onComplete(@NonNull Task task) {
                             if(task.isSuccessful())
                             {
-                                Toast.makeText(getApplicationContext(),"Question added successfully",Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(),"Posts added successfully",Toast.LENGTH_LONG).show();
+                                Intent i=new Intent(addpost.this,MainActivity.class);
+                                startActivity(i);
+                                finish();
                                 return;
                             }
                             else {
