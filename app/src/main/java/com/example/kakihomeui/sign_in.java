@@ -1,6 +1,7 @@
 package com.example.kakihomeui;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -12,24 +13,17 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.kakihomeui.databinding.ActivityMainBinding;
-import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.auth.api.signin.GoogleSignInResult;
-import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.ApiException;
-import com.google.android.gms.common.api.GoogleApi;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -51,6 +45,18 @@ import java.util.Date;
 import java.util.HashMap;
 
 public class sign_in extends AppCompatActivity {
+
+    // creating constant keys for shared preferences.
+    public static final String SHARED_PREFS = "shared_prefs";
+
+    // key for storing email.
+    public static final String EMAIL_KEY = "email_key";
+
+    // key for storing password.
+    public static final String PASSWORD_KEY = "password_key";
+
+    SharedPreferences sharedpreferences;
+    String semail, spassword;
 
     EditText email, password;
     CheckBox remember;
@@ -89,6 +95,11 @@ public class sign_in extends AppCompatActivity {
         login = findViewById(R.id.log_in);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
+
+        sharedpreferences = getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE);
+        semail = sharedpreferences.getString(EMAIL_KEY, null);
+        spassword = sharedpreferences.getString(PASSWORD_KEY, null);
+
         forgetPass = findViewById(R.id.forget_pw);
         loadingBar = new ProgressDialog(this);
         googleSignInButton = findViewById(R.id.google);
