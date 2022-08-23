@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KAKI Home UI</string>
+    <string name="Logout">Logout</string>
 </resources>

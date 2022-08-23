@@ -17,10 +17,38 @@
         <entry key="..\:/Users/latia/StudioProjects/Kaki_app/app/src/main/res/layout/activity_sign_in.xml" value="0.18" />
         <entry key="..\:/Users/latia/StudioProjects/Kaki_app/app/src/main/res/layout/activity_sign_up.xml" value="0.2975630611372381" />
         <entry key="..\:/Users/latia/StudioProjects/Kaki_app/app/src/main/res/layout/forum_post.xml" value="0.1452152110321772" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_app/app/src/main/res/layout-large/activity_addpost1.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_app/app/src/main/res/layout/activity_addpost1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_app/app/src/main/res/layout/activity_profile.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_app/app/src/main/res/layout/activity_sign_in.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/round_back.xml" value="0.1545" />
         <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/round_desc.xml" value="0.1545" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/round_next.xml" value="0.1545" />
         <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/drawable/rounded_corner.xml" value="0.1545" />
-        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_addpost1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_addpost1.xml" value="0.14407866609662248" />
         <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_addpost2.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_friends.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_intro.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_main.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/natas/AndroidStudioProjects/kaki_version1/app/src/main/res/layout/activity_sign_in.xml" value="0.14407866609662248" />
+        <entry key="app/src/main/res/layout-large/activity_addpost1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-large/activity_addpost2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-large/activity_intro.xml" value="0.1125" />
+        <entry key="app/src/main/res/layout-large/activity_main.xml" value="0.10026041666666667" />
+        <entry key="app/src/main/res/layout-large/activity_sign_in.xml" value="0.17225747960108795" />
+        <entry key="app/src/main/res/layout-large/activity_sign_up.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_addpost1.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_addpost2.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/layout/activity_friends.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.17452402538531278" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/layout/forum_post.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.238" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.238" />
       </map>
     </option>
   </component>
@@ -29,5 +57,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.17452402538531278" />
+      </ProjectState>
+    </option>
   </component>
 </project>
