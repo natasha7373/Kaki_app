@@ -21,22 +21,6 @@
         android:fontFamily="@font/futura_bold"
         android:background="#EE5C54" />
 
-    <!--button for logging out of the app-->
-    <Button
-        android:id="@+id/idBtnLogout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/idTVWelcome"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:text="@string/Logout"
-        app:backgroundTint="#EE5C54"
-        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header"/>
-
     <TextView
         android:id="@+id/new_post"
         android:layout_width="wrap_content"

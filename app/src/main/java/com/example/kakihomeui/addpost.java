@@ -59,6 +59,8 @@ public class addpost extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addpost);
 
+        getSupportActionBar().setTitle("Add Post");
+
         mAuth = FirebaseAuth.getInstance();
         currentUserID=mAuth.getCurrentUser().getUid();
         mDatabase = FirebaseDatabase.getInstance();
@@ -78,6 +80,16 @@ public class addpost extends AppCompatActivity {
         // storing it in our string variable.
         semail = sharedpreferences.getString(EMAIL_KEY, null);
         loadingBar = new ProgressDialog(this);
+
+        ImageButton button;
+        button = findViewById(R.id.exit);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
