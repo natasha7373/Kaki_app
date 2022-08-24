@@ -59,28 +59,6 @@ public class MainActivity extends AppCompatActivity {
         // initializing our textview and button.
         TextView welcomeTV = findViewById(R.id.idTVWelcome);
         welcomeTV.setText("Welcome \n"+semail);
-        Button logoutBtn = findViewById(R.id.idBtnLogout);
-        logoutBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                // calling method to edit values in shared prefs.
-                SharedPreferences.Editor editor = sharedpreferences.edit();
-
-                // below line will clear
-                // the data in shared prefs.
-                editor.clear();
-
-                // below line will apply empty
-                // data to shared prefs.
-                editor.apply();
-
-                Intent i = new Intent(MainActivity.this, sign_in.class);
-                startActivity(i);
-                finish();
-            }
-        });
-
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.home);

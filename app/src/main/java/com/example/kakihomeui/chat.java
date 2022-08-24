@@ -16,6 +16,8 @@ public class chat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
+        getSupportActionBar().setTitle("Chat");
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
         bottomNavigationView.setSelectedItemId(R.id.home);
