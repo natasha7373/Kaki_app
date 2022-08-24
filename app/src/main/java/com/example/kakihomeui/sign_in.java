@@ -158,10 +158,6 @@ public class sign_in extends AppCompatActivity {
                 Lpass = password.getText().toString().trim();
                 Login(Lusnm, Lpass);
 
-                SharedPreferences.Editor editor = sharedpreferences.edit();
-                editor.putString(EMAIL_KEY, email.getText().toString());
-                editor.putString(PASSWORD_KEY, password.getText().toString());
-                editor.apply();
             }
         });
 
@@ -264,9 +260,14 @@ public class sign_in extends AppCompatActivity {
                     loadingBar.dismiss();
                     Intent intent = new Intent(sign_in.this, MainActivity.class);
                     startActivity(intent);
+                    SharedPreferences.Editor editor = sharedpreferences.edit();
+                    editor.putString(EMAIL_KEY, email.getText().toString());
+                    editor.putString(PASSWORD_KEY, password.getText().toString());
+                    editor.apply();
                     finish();
                 } else {
-                    Toast.makeText(getApplicationContext(), "Please check email input is correct" + mAuth.getCurrentUser().getEmail(), Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(), "Please check email input is correct" + mAuth.getCurrentUser().getEmail(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Please check email input is correct" , Toast.LENGTH_LONG).show();
                     Toast.makeText(getApplicationContext(), task.getException().toString(), Toast.LENGTH_LONG).show();
                     loadingBar.dismiss();
                     return;
@@ -372,6 +373,7 @@ public class sign_in extends AppCompatActivity {
             }
         });
     }
+
     @Override
     protected void onStart() {
         super.onStart();
@@ -380,6 +382,8 @@ public class sign_in extends AppCompatActivity {
             startActivity(i);
         }
     }
+
+
 }
 
 
