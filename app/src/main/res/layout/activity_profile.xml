@@ -10,6 +10,7 @@
 
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -46,22 +47,35 @@
             app:roundPercent="1" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Linna May"
+            android:text="username"
             android:textSize="28dp"
             android:fontFamily="@font/futura_bold"
             android:textColor="@color/black"
             android:layout_marginStart="150dp"
             android:layout_marginTop="85dp"/>
 
+        <TextView
+            android:id="@+id/regis_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/futura_bold"
+            android:text="Registered on"
+            android:textColor="#80000000"
+            android:textSize="20dp" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_create_24"
-            android:layout_marginStart="260dp"
-            android:layout_marginTop="105dp"/>
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="105dp"
+            android:layout_toRightOf="@+id/username"/>
 
         <TextView
             android:id="@+id/change_pw"
@@ -93,7 +107,7 @@
             android:textSize="28dp" />
 
         <TextView
-            android:id="@+id/log_in"
+            android:id="@+id/confirm_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/pw_banner"
@@ -108,6 +122,45 @@
             android:textAlignment="center"
             android:textColorHint="#FFFFFF"
             android:textSize="28dp" />
+
+        <!--button for logging out of the app-->
+        <Button
+            android:id="@+id/idBtnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idBtnDelete"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/futura_bold"
+            android:background="@drawable/round_login"
+            android:textSize="28dp"
+            android:text="@string/Logout"
+            app:backgroundTint="#EE5C54"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/header" />
+
+        <Button
+            android:id="@+id/idBtnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/confirm_button"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/futura_bold"
+            android:textColor="#EE5C54"
+            android:background="#FFFFF"
+            android:textSize="20dp"
+            android:text="Delete Account"
+            app:backgroundTint="@drawable/round_back"
+            app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/header" />
+
     </FrameLayout>
 
 
