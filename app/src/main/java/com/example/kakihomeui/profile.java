@@ -5,6 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.utils.widget.ImageFilterView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -70,12 +71,12 @@ public class profile extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     String currentUserID;
-    private TextView email;
+    private TextView email, regisdate;
     DatabaseReference UsersReference;
     DatabaseReference UsersRef;
     private ProgressDialog loadingBar;
     private StorageReference ProfileImgRef;
-    private ImageView ProfileImg;
+    private ImageFilterView ProfileImg;
     final static int Gallery_Pick=1;
     private static final int RESULT_CODE = 100;
 
@@ -101,9 +102,10 @@ public class profile extends AppCompatActivity {
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        email = findViewById(R.id.name);
+        email = findViewById(R.id.username);
+        regisdate = findViewById(R.id.regis_date);
 
-        ProfileImg=(ImageView)findViewById(R.id.profile_pic);
+        ProfileImg=(ImageFilterView)findViewById(R.id.ivProfile);
         ProfileImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -147,7 +149,7 @@ public class profile extends AppCompatActivity {
                     }
                     if (dataSnapshot.hasChild("registeredDate")) {
                         String date = dataSnapshot.child("registeredDate").getValue().toString();
-                        //date.setText(date);
+                        regisdate.setText(date);
                     }
 
                 }
