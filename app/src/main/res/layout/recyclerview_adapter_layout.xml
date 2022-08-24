@@ -1,85 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardUseCompatPadding="true"
-        app:cardCornerRadius="10dp">
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
 
         <LinearLayout
-            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="10dp">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/emailWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
             <TextView
-                android:layout_width="match_parent"
+                android:id="@+id/dateWrap"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email:"
+                android:text="Date: "
                 android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/emailTV"/>
-
+                android:textSize="18sp" />
             <TextView
+                android:id="@+id/dateTV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date:"
                 android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/dateTV"/>
+                android:textSize="18sp" />
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/datePTVWrap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date Posted: "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/datePTV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date Posted:"
                 android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/datePTV"/>
+                android:textSize="18sp" />
+        </LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Description:"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/desTV"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/desTVWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: "
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/desTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Title:"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/titleTV"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/titleTVQWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: "
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Location:"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/locTV"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/locTVWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: "
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/locTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Attendees:"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/attendeesTV"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/attendeesTVWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendees: "
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/attendeesTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendees:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Time:"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:id="@+id/timeTV"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/timeTVWrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: "
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</LinearLayout>
+
 
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
