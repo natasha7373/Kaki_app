@@ -101,7 +101,7 @@ public class profile extends AppCompatActivity {
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        email = findViewById(R.id.name);
+        email = findViewById(R.id.email);
 
         ProfileImg=(ImageView)findViewById(R.id.profile_pic);
         ProfileImg.setOnClickListener(new View.OnClickListener() {

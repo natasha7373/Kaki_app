@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+
 
     <!--Textview for displaying
     user's email address-->
@@ -40,6 +43,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/header" />
 
+
+
+
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="fill_parent"
@@ -66,7 +72,6 @@
             android:textColorHint="#8F050505"
             android:textSize="28dp" />
 
-
     </LinearLayout>
 
     <ListView
@@ -89,6 +94,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerView"
+
+/>
+
+
+
+
+
+
+
+
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
