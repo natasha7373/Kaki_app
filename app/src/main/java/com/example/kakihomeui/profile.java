@@ -5,21 +5,33 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.constraintlayout.utils.widget.ImageFilterView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.ImageView;
 import android.view.View;
 import android.widget.Toast;
 import android.net.Uri;
+import android.content.DialogInterface;
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.text.TextUtils;
+import android.graphics.drawable.Drawable;
+import android.view.LayoutInflater;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.gms.appinvite.AppInviteInvitation;
@@ -53,6 +65,7 @@ import com.canhub.cropper.CropImageView.OnSetImageUriCompleteListener;
 //import com.example.croppersample.R;
 //import com.example.croppersample.databinding.FragmentCropImageViewBinding;
 
+import java.util.HashMap;
 
 
 public class profile extends AppCompatActivity {
@@ -64,20 +77,27 @@ public class profile extends AppCompatActivity {
     public static final String EMAIL_KEY = "email_key";
 
     // key for storing password.
-    public static final String PASSWORD_KEY = "password_key";
+    //public static final String PASSWORD_KEY = "password_key";
 
     SharedPreferences sharedpreferences;
 
     private FirebaseAuth mAuth;
     String currentUserID;
-    private TextView email;
+    private TextView email, regisdate, username;
     DatabaseReference UsersReference;
     DatabaseReference UsersRef;
+    DatabaseReference SettingUserRef;
     private ProgressDialog loadingBar;
     private StorageReference ProfileImgRef;
-    private ImageView ProfileImg;
+    private ImageFilterView ProfileImg;
     final static int Gallery_Pick=1;
     private static final int RESULT_CODE = 100;
+    FirebaseUser firebaseUser;
+    String currentUsername;
+    String currentPassword;
+    EditText enteredPassword,newUsername,newPassword,confirmPassword;
+    Button save;
+    Button deleteAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,14 +116,24 @@ public class profile extends AppCompatActivity {
         UsersReference=database.getReference().child("Users").child(currentUserID);
         UsersRef=database.getReference().child("Users");
         loadingBar=new ProgressDialog(this);
+        firebaseUser = mAuth.getCurrentUser();
+        enteredPassword=findViewById(R.id.old_pw_banner);
+        newPassword=findViewById(R.id.new_pw_banner);
+        //newUsername=findViewById(R.id.settings_new_username);
+        confirmPassword=findViewById(R.id.cfm_pw_banner);
+        save=findViewById(R.id.confirm_button);
+        SettingUserRef=FirebaseDatabase.getInstance().getReference().child("Users").child(currentUserID);
 
         getSupportActionBar().setTitle("Profile");
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        username = findViewById(R.id.username);
+        regisdate = findViewById(R.id.regis_date);
         email = findViewById(R.id.email);
 
-        ProfileImg=(ImageView)findViewById(R.id.profile_pic);
+
+        ProfileImg=(ImageFilterView)findViewById(R.id.ivProfile);
         ProfileImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -136,18 +166,45 @@ public class profile extends AppCompatActivity {
             }
         });
 
+        ImageButton changename = findViewById(R.id.change_name);
+        changename.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+
+                AlertDialog alertDialog = new AlertDialog.Builder(profile.this).create();
+                alertDialog.setTitle("hi");
+                alertDialog.setMessage("this is my app");
+
+                alertDialog.setButton("Change", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // here you can add functions
+                    }
+                });
+
+                alertDialog.show();
+            }
+
+        });
+
         UsersRef.child(currentUserID).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists())
                 {
-                    if (dataSnapshot.hasChild("userName")) {
-                        String pusername = dataSnapshot.child("userName").getValue().toString();
-                        email.setText(pusername);
+                    if (dataSnapshot.hasChild("phoneNumber")) {
+                        String pusername = dataSnapshot.child("phoneNumber").getValue().toString();
+                        username.setText(pusername);
                     }
                     if (dataSnapshot.hasChild("registeredDate")) {
                         String date = dataSnapshot.child("registeredDate").getValue().toString();
-                        //date.setText(date);
+                        regisdate.setText("Registered on: "+date);
+                    }
+
+                    if (dataSnapshot.hasChild("email")) {
+                        String mail = dataSnapshot.child("email").getValue().toString();
+                        email.setText("Email: "+mail);
+                    }
+                    if (dataSnapshot.hasChild("password")) {
+                        currentPassword = dataSnapshot.child("password").getValue().toString();
                     }
 
                 }
@@ -158,27 +215,16 @@ public class profile extends AppCompatActivity {
             }
         });
 
-        Button logoutBtn = findViewById(R.id.idBtnLogout);
-        logoutBtn.setOnClickListener(new View.OnClickListener() {
+        save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                // calling method to edit values in shared prefs.
-                SharedPreferences.Editor editor = sharedpreferences.edit();
-
-                // below line will clear
-                // the data in shared prefs.
-                editor.clear();
-
-                // below line will apply empty
-                // data to shared prefs.
-                editor.apply();
-
-                Intent i = new Intent(profile.this, sign_in.class);
-                startActivity(i);
-                finish();
+                saveDetails();
             }
         });
+
+
+
+
         /*
         @Override
         protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -233,10 +279,84 @@ public class profile extends AppCompatActivity {
            }
         }
         */
+
+
+        deleteAccount=findViewById(R.id.idBtnDelete);
+
+        deleteAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder dialog = new AlertDialog.Builder(profile.this);
+                dialog.setTitle("Are you sure?");
+                dialog.setMessage("Deleting this account will result in completely removing your " +
+                        "account from the app and you won't able to access the app!");
+                dialog.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        deleteUserData(currentUserID);
+                        firebaseUser.delete().addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                if(task.isSuccessful()){
+                                    Toast.makeText(profile.this, "Account Deleted", Toast.LENGTH_LONG).show();
+                                    Intent intent = new Intent(profile.this,sign_in.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
+                                    profile.this.finish();
+
+                                    SharedPreferences.Editor editor = sharedpreferences.edit();
+
+                                    // below line will clear
+                                    // the data in shared prefs.
+                                    editor.clear();
+
+                                    // below line will apply empty
+                                    // data to shared prefs.
+                                    editor.apply();
+
+                                }
+                            }
+                        });
+                    }
+                });
+                dialog.setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+                AlertDialog alertDialog = dialog.create();
+                alertDialog.show();;
+            }
+        });
+
+
+
+        Button logoutBtn = findViewById(R.id.idBtnLogout);
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // calling method to edit values in shared prefs.
+                SharedPreferences.Editor editor = sharedpreferences.edit();
+
+                // below line will clear
+                // the data in shared prefs.
+                editor.clear();
+
+                // below line will apply empty
+                // data to shared prefs.
+                editor.apply();
+
+                Intent i = new Intent(profile.this, sign_in.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
-
         bottomNavigationView.setSelectedItemId(R.id.home);
-
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -270,5 +390,88 @@ public class profile extends AppCompatActivity {
                 return false;
             }
         });
+    }
+    private void deleteUserData(String currentUserID) {
+        DatabaseReference deUsers = FirebaseDatabase.getInstance().getReference("Users").child(currentUserID);
+        deUsers.removeValue();
+    }
+
+    private void saveDetails() {
+        loadingBar.setMessage("Updating.");
+        loadingBar.show();
+        loadingBar.setCanceledOnTouchOutside(false);
+
+        //String tempUsername=enteredUsername.getText().toString();
+        String tempPassword=enteredPassword.getText().toString();
+        //String tempNewUsername=newUsername.getText().toString();
+        String tempNewPassword=newPassword.getText().toString();
+        String tempConfirmPassword=confirmPassword.getText().toString();
+
+
+            if(tempPassword.equals(currentPassword)) {
+                /*
+                if (!TextUtils.isEmpty(tempNewUsername)) {
+                    loadingBar.dismiss();
+                    HashMap UserMap=new HashMap();
+                    final Drawable updateIcon=getResources().getDrawable(R.drawable.checked_icon);
+                    updateIcon.setBounds(0,0,updateIcon.getIntrinsicWidth(),updateIcon.getIntrinsicHeight());
+                    UserMap.put("Username",tempNewUsername);
+                    SettingUserRef.updateChildren(UserMap).addOnCompleteListener(new OnCompleteListener() {
+                        @Override
+                        public void onComplete(@NonNull Task task) {
+                            if (task.isSuccessful()){
+                                newUsername.setError("Updated",updateIcon);
+                            }
+                            else {
+                                newUsername.setError("Update Failed");
+                            }
+
+                        }
+                    });
+                }
+                 */
+                if (!TextUtils.isEmpty(tempNewPassword) && tempNewPassword.equals(tempConfirmPassword)) {
+                    loadingBar.dismiss();
+                    HashMap UserMap=new HashMap();
+                    final Drawable updateIcon=getResources().getDrawable(R.drawable.checked_icon);
+                    updateIcon.setBounds(0,0,updateIcon.getIntrinsicWidth(),updateIcon.getIntrinsicHeight());
+                    UserMap.put("password",tempNewPassword);
+                    SettingUserRef.updateChildren(UserMap).addOnCompleteListener(new OnCompleteListener() {
+                        @Override
+                        public void onComplete(@NonNull Task task) {
+                            if (task.isSuccessful()){
+                                newPassword.setError("Updated",updateIcon);
+                                finish();
+                                startActivity(getIntent());
+                            }
+                            else {
+                                newPassword.setError("Update Failed");
+                            }
+
+                        }
+                    });
+                }
+
+                if(!(!TextUtils.isEmpty(tempNewPassword) && tempNewPassword.equals(tempConfirmPassword)))
+                {
+                    loadingBar.dismiss();
+                    Toast.makeText(profile.this, "Nothing was Updated.", Toast.LENGTH_SHORT).show();
+                }
+
+                loadingBar.dismiss();
+
+            }
+            else {
+                loadingBar.dismiss();
+                enteredPassword.setError("Please Enter Correct Password");
+                enteredPassword.requestFocus();
+            }
+
+            /*
+            loadingBar.dismiss();
+            enteredUsername.setError("Please Enter Correct Username");
+            enteredUsername.requestFocus();
+            */
+
     }
 }
