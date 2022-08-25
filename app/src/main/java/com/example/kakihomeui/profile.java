@@ -59,6 +59,7 @@ import com.squareup.picasso.Picasso;
 import de.hdodenhof.circleimageview.CircleImageView;
 import com.canhub.cropper.CropImage;
 import com.canhub.cropper.CropImageView;
+import com.canhub.cropper.CropImageActivity;
 import com.canhub.cropper.CropImageView.CropResult;
 import com.canhub.cropper.CropImageView.OnCropImageCompleteListener;
 import com.canhub.cropper.CropImageView.OnSetImageUriCompleteListener;
@@ -211,7 +212,8 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
             }
         });
 
-/*
+
+     /*
         @Override
         protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
             super.onActivityResult(requestCode, resultCode, data);
@@ -221,7 +223,8 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
                 CropImage.activity(ImageUri)
                         .setGuidelines(CropImageView.Guidelines.ON)
                         .setAspectRatio(1, 1)
-                        .start(this);
+                        .getIntent(this);
+
             }
 
            if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
@@ -271,7 +274,6 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
 
         }
 */
-
         deleteAccount=findViewById(R.id.idBtnDelete);
 
         deleteAccount.setOnClickListener(new View.OnClickListener() {
