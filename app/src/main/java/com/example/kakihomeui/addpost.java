@@ -1,15 +1,19 @@
 package com.example.kakihomeui;
 
 import android.app.ProgressDialog;
+import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -24,12 +28,16 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.niwattep.materialslidedatepicker.SlideDatePickerDialog;
+import com.niwattep.materialslidedatepicker.SlideDatePickerDialogCallback;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.Locale;
+import java.util.TimeZone;
 
-public class addpost extends AppCompatActivity {
+public class addpost extends AppCompatActivity implements SlideDatePickerDialogCallback {
 
     FirebaseAuth mAuth;
     String currentUserID;
@@ -41,6 +49,9 @@ public class addpost extends AppCompatActivity {
     Button submit;
     EditText title, location, date, time, desc, attendees;
     private ProgressDialog loadingBar;
+    private TextView TimeTextView;
+    private TextView PickTime ;
+    TextView datec;
 
     // creating constant keys for shared preferences.
     public static final String SHARED_PREFS = "shared_prefs";
@@ -59,6 +70,8 @@ public class addpost extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addpost);
 
+
+
         getSupportActionBar().setTitle("Add Post");
 
         mAuth = FirebaseAuth.getInstance();
@@ -67,9 +80,12 @@ public class addpost extends AppCompatActivity {
         UsersRef=FirebaseDatabase.getInstance().getReference().child("Users");
 
         title = findViewById(R.id.noticetitlebanner);
+
         location = findViewById(R.id.location_banner);
+
         date = findViewById(R.id.date_banner);
         time = findViewById(R.id.time_banner);
+
         desc = findViewById(R.id.noticedescbanner);
         attendees = findViewById(R.id.attendee_banner);
         submit = findViewById(R.id.post);
@@ -81,6 +97,32 @@ public class addpost extends AppCompatActivity {
         semail = sharedpreferences.getString(EMAIL_KEY, null);
         loadingBar = new ProgressDialog(this);
 
+        TimeTextView = findViewById(R.id.time);
+        PickTime = findViewById(R.id.time_banner2);
+        datec = findViewById(R.id.date);
+
+        PickTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Calendar calendar = Calendar.getInstance();
+                int hours = calendar.get(Calendar.HOUR_OF_DAY);
+                int mins = calendar.get(Calendar.MINUTE);
+                TimePickerDialog timePickerDialog = new TimePickerDialog(addpost.this, androidx.appcompat.R.style.Theme_AppCompat_Dialog, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                        Calendar c = Calendar.getInstance();
+                        c.set(Calendar.HOUR_OF_DAY, hourOfDay);
+                        c.set(Calendar.MINUTE, minute);
+                        c.setTimeZone(TimeZone.getDefault());
+                        SimpleDateFormat format = new SimpleDateFormat("k:mm a");
+                        String time = format.format(c.getTime());
+                        TimeTextView.setText(time);
+                    }
+                }, hours, mins, false);
+                timePickerDialog.show();
+            }
+        });
+
         ImageButton button;
         button = findViewById(R.id.exit);
 
@@ -88,6 +130,28 @@ public class addpost extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        loadingBar = new ProgressDialog(this);
+        Button dateBtn = findViewById(R.id.date_banner2);
+        dateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Calendar endDate = Calendar.getInstance();
+                endDate.set(Calendar.YEAR, 2100);
+                //create calendar
+                SlideDatePickerDialog.Builder builder = new SlideDatePickerDialog.Builder();
+                builder.setEndDate(endDate); // max date
+                builder.setLocale(Locale.US); //country
+                builder.setThemeColor(Color.rgb(100,200,255)); //dialog colour
+                builder.setShowYear(true); //show year
+                builder.setCancelText("cancel"); //cancel text
+                builder.setConfirmText("confirm"); //confirm text
+
+                SlideDatePickerDialog dialog = builder.build();
+                dialog.show(getSupportFragmentManager(), "Dialog");
             }
         });
 
@@ -187,5 +251,14 @@ public class addpost extends AppCompatActivity {
 
             }
         });
+    }
+    //confirm button event
+    @Override
+    public void onPositiveClick(int i, int i1, int i2, @NonNull Calendar calendar) {
+        SimpleDateFormat format = new SimpleDateFormat("EEEE, MMM dd, yyyy", Locale.getDefault());
+
+        //date on text view
+        datec.setText(format.format(calendar.getTime()));
+
     }
 }
