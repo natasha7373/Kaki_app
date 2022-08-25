@@ -16,17 +16,21 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     private final List<MyItems> items; //items array list
     private final Context context; // context
+    private RecyclerViewInterface recyclerViewInterface;
 
     // constructor
-    public MyAdapter(List<MyItems> items, Context context) {
+    public MyAdapter(List<MyItems> items, Context context, RecyclerViewInterface recyclerViewInterface) {
         this.items = items;
         this.context = context;
+        this.recyclerViewInterface = recyclerViewInterface;
     }
+
+
 
     @NonNull
     @Override
     public MyAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new MyViewHolder(LayoutInflater.from(parent.getContext()).inflate( R.layout.recyclerview_adapter_layout, null));
+        return new MyViewHolder(LayoutInflater.from(parent.getContext()).inflate( R.layout.recyclerview_adapter_layout, parent, false), recyclerViewInterface);
     }
 
     @Override
@@ -49,12 +53,12 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     // MyViewHolder class to hold reference for every item in the RV
-    static class MyViewHolder extends RecyclerView.ViewHolder {
+     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         //declare TVs
         private final TextView email, date, dateP, des, title, loc, attendees, time;
 
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder(@NonNull View itemView, RecyclerViewInterface recyclerViewInterface) {
             super(itemView);
 
             // getting TV from xml file
@@ -66,6 +70,19 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             loc = itemView.findViewById(R.id.locTV);
             attendees = itemView.findViewById(R.id.attendeesTV);
             time = itemView.findViewById(R.id.timeTV);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (recyclerViewInterface != null) {
+                        int pos = getAdapterPosition();
+
+                        if (pos != RecyclerView.NO_POSITION) {
+                            recyclerViewInterface.onItemClick(pos);
+                        }
+                    }
+                }
+            });
 
         }
     }

@@ -70,23 +70,47 @@
                     android:id="@+id/idDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Date:"
+                    android:text="Date: "
                     android:fontFamily="@font/futura_bold"
                     android:textColor="@color/black"
                     android:textSize="25dp"
                     android:layout_marginTop="280dp"/>
 
                 <TextView
+                    android:id="@+id/idEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: "
+                    android:fontFamily="@font/futura_bold"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
                     android:id="@+id/idTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Time"
+                    android:text="Time: "
                     android:fontFamily="@font/futura_bold"
                     android:textColor="@color/black"
-                    android:textSize="25dp"
+                    android:textSize="25dp" />
 
+                <TextView
+                    android:id="@+id/idAttendees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attendees: "
+                    android:fontFamily="@font/futura_bold"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
 
-                    />
+                <TextView
+                    android:id="@+id/idLoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location: "
+                    android:fontFamily="@font/futura_bold"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
 
             </LinearLayout>
 

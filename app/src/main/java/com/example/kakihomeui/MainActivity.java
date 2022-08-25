@@ -28,7 +28,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerViewInterface {
 
     private final DatabaseReference databaseReference = FirebaseDatabase.getInstance("https://kaki-real-default-rtdb.asia-southeast1.firebasedatabase.app").getReference();
 
@@ -47,10 +47,13 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedpreferences;
     String semail;
 
+    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this, gso);
@@ -73,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         TextView welcomeTV = findViewById(R.id.idTVWelcome);
         welcomeTV.setText("Welcome \n"+semail);
 
+
         // getting Recycle View from xml file
         final RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
@@ -81,6 +85,11 @@ public class MainActivity extends AppCompatActivity {
 
         // setting layout manager to the recyclerView
         recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+
+        MyAdapter adapter = new MyAdapter(myItemsList, this, this);
+
+        recyclerView.setAdapter(adapter);
+
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -118,8 +127,9 @@ public class MainActivity extends AppCompatActivity {
 
                 // after all the post has added to list
                 // now set adapter to recycleView
-                recyclerView.setAdapter(new MyAdapter(myItemsList, MainActivity.this));
+                recyclerView.setAdapter(adapter);
             }
+
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
@@ -162,5 +172,21 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    @Override
+    public void onItemClick(int position) {
+        Intent intent = new Intent(MainActivity.this, viewpost.class);
+
+        intent.putExtra("EMAIL", myItemsList.get(position).getEmail());
+        intent.putExtra("DATE", myItemsList.get(position).getDate());
+        intent.putExtra("DATE POSTED", myItemsList.get(position).getDateP());
+        intent.putExtra("DES", myItemsList.get(position).getDes());
+        intent.putExtra("TITLE", myItemsList.get(position).getTitle());
+        intent.putExtra("LOC", myItemsList.get(position).getLoc());
+        intent.putExtra("ATTENDEES", myItemsList.get(position).getAttendees());
+        intent.putExtra("TIME", myItemsList.get(position).getTime());
+
+        startActivity(intent);
     }
 }
