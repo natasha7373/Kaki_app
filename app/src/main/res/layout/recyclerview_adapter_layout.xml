@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:text="Email: "
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold"
         />
     <TextView
         android:id="@+id/emailTV"
@@ -33,7 +34,8 @@
         android:layout_height="wrap_content"
         android:text="Email:"
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold"/>
 </LinearLayout>
 
         <LinearLayout
@@ -45,14 +47,16 @@
                 android:layout_height="wrap_content"
                 android:text="Date: "
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="20sp"
+                android:fontFamily="@font/futura_bold" />
             <TextView
                 android:id="@+id/dateTV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date:"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="20sp"
+                android:fontFamily="@font/futura_bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -64,14 +68,16 @@
                 android:layout_height="wrap_content"
                 android:text="Date Posted: "
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="20sp"
+                android:fontFamily="@font/futura_bold" />
             <TextView
                 android:id="@+id/datePTV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date Posted:"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="20sp"
+                android:fontFamily="@font/futura_bold"/>
         </LinearLayout>
 
 <LinearLayout
@@ -83,14 +89,16 @@
         android:layout_height="wrap_content"
         android:text="Description: "
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
     <TextView
         android:id="@+id/desTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Description:"
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
 </LinearLayout>
 
 <LinearLayout
@@ -102,14 +110,16 @@
         android:layout_height="wrap_content"
         android:text="Title: "
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
     <TextView
         android:id="@+id/titleTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Title:"
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
 </LinearLayout>
 
 <LinearLayout
@@ -121,14 +131,16 @@
         android:layout_height="wrap_content"
         android:text="Location: "
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
     <TextView
         android:id="@+id/locTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Location:"
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
 </LinearLayout>
 
 <LinearLayout
@@ -140,14 +152,16 @@
         android:layout_height="wrap_content"
         android:text="Attendees: "
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
     <TextView
         android:id="@+id/attendeesTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Attendees:"
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
 </LinearLayout>
 
 <LinearLayout
@@ -159,14 +173,16 @@
         android:layout_height="wrap_content"
         android:text="Time: "
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
     <TextView
         android:id="@+id/timeTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Time:"
         android:textColor="#000000"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/futura_bold" />
 </LinearLayout>
 
 
