@@ -32,7 +32,7 @@
                 android:text="TITLE"
                 android:fontFamily="@font/futura_bold"
                 android:textColor="@color/black"
-                android:textSize="35dp"
+                android:textSize="45dp"
                 android:gravity="center"
                 android:layout_marginTop="70dp"/>
 
@@ -41,6 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/idTitle"
+                android:padding="10dp"
                 android:layout_marginTop="110dp"
                 android:fontFamily="@font/futura_bold"
                 android:gravity="center"
@@ -49,57 +50,56 @@
                 android:textSize="25dp" />
 
             <TextView
+                android:id="@+id/idEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:padding="10dp"
+                android:text="Email: "
+                android:layout_marginStart="170dp"
+                android:gravity="center"
+                android:fontFamily="@font/futura_bold"
+                android:textColor="#92000000"
+                android:textSize="25dp" />
+
+            <TextView
                 android:id="@+id/idDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/idDatepost"
-                android:layout_marginTop="150dp"
+                android:layout_marginTop="190dp"
                 android:fontFamily="@font/futura_bold"
                 android:gravity="center"
+                android:padding="40dp"
                 android:text="Description"
                 android:textColor="@color/black"
                 android:textSize="25dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_below="@id/idDesc">
+                android:layout_height="734dp"
+                android:layout_below="@id/idDesc"
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/idDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginTop="330dp"
+                    android:fontFamily="@font/futura_bold"
                     android:text="Date: "
-                    android:fontFamily="@font/futura_bold"
-                    android:textColor="@color/black"
-                    android:textSize="25dp"
-                    android:layout_marginTop="280dp"/>
-
-                <TextView
-                    android:id="@+id/idEmail"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Email: "
-                    android:fontFamily="@font/futura_bold"
                     android:textColor="@color/black"
                     android:textSize="25dp" />
+
 
                 <TextView
                     android:id="@+id/idTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:fontFamily="@font/futura_bold"
                     android:text="Time: "
-                    android:fontFamily="@font/futura_bold"
-                    android:textColor="@color/black"
-                    android:textSize="25dp" />
-
-                <TextView
-                    android:id="@+id/idAttendees"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Attendees: "
-                    android:fontFamily="@font/futura_bold"
                     android:textColor="@color/black"
                     android:textSize="25dp" />
 
@@ -107,10 +107,24 @@
                     android:id="@+id/idLoc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Location: "
+                    android:layout_gravity="center_horizontal|center_vertical"
                     android:fontFamily="@font/futura_bold"
+                    android:padding="20dp"
+                    android:text="Location: "
                     android:textColor="@color/black"
                     android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/idAttendees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:fontFamily="@font/futura_bold"
+                    android:padding="35dp"
+                    android:text="Attendees: "
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
 
             </LinearLayout>
 
