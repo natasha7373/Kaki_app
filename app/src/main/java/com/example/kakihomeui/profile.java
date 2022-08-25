@@ -10,6 +10,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -33,6 +34,7 @@ import android.text.TextUtils;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 
+import com.canhub.cropper.CropImageActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.gms.appinvite.AppInviteInvitation;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -68,7 +70,7 @@ import com.canhub.cropper.CropImageView.OnSetImageUriCompleteListener;
 import java.util.HashMap;
 
 
-public class profile extends AppCompatActivity {
+public class profile extends AppCompatActivity implements dialog.dialogListener {
 
     // creating constant keys for shared preferences.
     public static final String SHARED_PREFS = "shared_prefs";
@@ -95,7 +97,7 @@ public class profile extends AppCompatActivity {
     FirebaseUser firebaseUser;
     String currentUsername;
     String currentPassword;
-    EditText enteredPassword,newUsername,newPassword,confirmPassword;
+    EditText enteredPassword,newPassword,confirmPassword;
     Button save;
     Button deleteAccount;
 
@@ -119,7 +121,6 @@ public class profile extends AppCompatActivity {
         firebaseUser = mAuth.getCurrentUser();
         enteredPassword=findViewById(R.id.old_pw_banner);
         newPassword=findViewById(R.id.new_pw_banner);
-        //newUsername=findViewById(R.id.settings_new_username);
         confirmPassword=findViewById(R.id.cfm_pw_banner);
         save=findViewById(R.id.confirm_button);
         SettingUserRef=FirebaseDatabase.getInstance().getReference().child("Users").child(currentUserID);
@@ -169,20 +170,9 @@ public class profile extends AppCompatActivity {
         ImageButton changename = findViewById(R.id.change_name);
         changename.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-
-                AlertDialog alertDialog = new AlertDialog.Builder(profile.this).create();
-                alertDialog.setTitle("hi");
-                alertDialog.setMessage("this is my app");
-
-                alertDialog.setButton("Change", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        // here you can add functions
-                    }
-                });
-
-                alertDialog.show();
+                dialog Dialog = new dialog();
+                Dialog.show(getSupportFragmentManager(), "dialog");
             }
-
         });
 
         UsersRef.child(currentUserID).addValueEventListener(new ValueEventListener() {
@@ -191,14 +181,13 @@ public class profile extends AppCompatActivity {
                 if (dataSnapshot.exists())
                 {
                     if (dataSnapshot.hasChild("phoneNumber")) {
-                        String pusername = dataSnapshot.child("phoneNumber").getValue().toString();
-                        username.setText(pusername);
+                        currentUsername = dataSnapshot.child("phoneNumber").getValue().toString();
+                        username.setText(currentUsername);
                     }
                     if (dataSnapshot.hasChild("registeredDate")) {
                         String date = dataSnapshot.child("registeredDate").getValue().toString();
                         regisdate.setText("Registered on: "+date);
                     }
-
                     if (dataSnapshot.hasChild("email")) {
                         String mail = dataSnapshot.child("email").getValue().toString();
                         email.setText("Email: "+mail);
@@ -222,15 +211,13 @@ public class profile extends AppCompatActivity {
             }
         });
 
-
-
-
-        /*
+/*
         @Override
         protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
             super.onActivityResult(requestCode, resultCode, data);
             if (requestCode == Gallery_Pick && resultCode == RESULT_OK && data != null) {
                 Uri ImageUri = data.getData();
+
                 CropImage.activity(ImageUri)
                         .setGuidelines(CropImageView.Guidelines.ON)
                         .setAspectRatio(1, 1)
@@ -241,12 +228,15 @@ public class profile extends AppCompatActivity {
                 CropImage.ActivityResult result = CropImage.getActivityResult(data);
 
                 if (resultCode == RESULT_OK) {
+
+
                     loadingBar.setMessage("Please wait, while we update your profile picture.");
                     loadingBar.show();
                     loadingBar.setCanceledOnTouchOutside(false);
                     Uri resultUri = result.getUri();
 
                     final StorageReference filePath = ProfileImgRef.child(currentUserID + ".jpg");
+
                     filePath.putFile(resultUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
@@ -277,9 +267,10 @@ public class profile extends AppCompatActivity {
                     });
                 }
            }
-        }
-        */
 
+
+        }
+*/
 
         deleteAccount=findViewById(R.id.idBtnDelete);
 
@@ -330,8 +321,6 @@ public class profile extends AppCompatActivity {
                 alertDialog.show();;
             }
         });
-
-
 
         Button logoutBtn = findViewById(R.id.idBtnLogout);
         logoutBtn.setOnClickListener(new View.OnClickListener() {
@@ -391,6 +380,7 @@ public class profile extends AppCompatActivity {
             }
         });
     }
+
     private void deleteUserData(String currentUserID) {
         DatabaseReference deUsers = FirebaseDatabase.getInstance().getReference("Users").child(currentUserID);
         deUsers.removeValue();
@@ -401,35 +391,12 @@ public class profile extends AppCompatActivity {
         loadingBar.show();
         loadingBar.setCanceledOnTouchOutside(false);
 
-        //String tempUsername=enteredUsername.getText().toString();
         String tempPassword=enteredPassword.getText().toString();
-        //String tempNewUsername=newUsername.getText().toString();
         String tempNewPassword=newPassword.getText().toString();
         String tempConfirmPassword=confirmPassword.getText().toString();
 
-
             if(tempPassword.equals(currentPassword)) {
-                /*
-                if (!TextUtils.isEmpty(tempNewUsername)) {
-                    loadingBar.dismiss();
-                    HashMap UserMap=new HashMap();
-                    final Drawable updateIcon=getResources().getDrawable(R.drawable.checked_icon);
-                    updateIcon.setBounds(0,0,updateIcon.getIntrinsicWidth(),updateIcon.getIntrinsicHeight());
-                    UserMap.put("Username",tempNewUsername);
-                    SettingUserRef.updateChildren(UserMap).addOnCompleteListener(new OnCompleteListener() {
-                        @Override
-                        public void onComplete(@NonNull Task task) {
-                            if (task.isSuccessful()){
-                                newUsername.setError("Updated",updateIcon);
-                            }
-                            else {
-                                newUsername.setError("Update Failed");
-                            }
 
-                        }
-                    });
-                }
-                 */
                 if (!TextUtils.isEmpty(tempNewPassword) && tempNewPassword.equals(tempConfirmPassword)) {
                     loadingBar.dismiss();
                     HashMap UserMap=new HashMap();
@@ -466,12 +433,35 @@ public class profile extends AppCompatActivity {
                 enteredPassword.setError("Please Enter Correct Password");
                 enteredPassword.requestFocus();
             }
-
-            /*
-            loadingBar.dismiss();
-            enteredUsername.setError("Please Enter Correct Username");
-            enteredUsername.requestFocus();
-            */
-
     }
+
+    @Override
+    public void applyText(String username2) {
+
+        loadingBar.setMessage("Updating.");
+        loadingBar.show();
+        loadingBar.setCanceledOnTouchOutside(false);
+
+        if (!TextUtils.isEmpty(username2)) {
+            loadingBar.dismiss();
+            HashMap UserMap = new HashMap();
+            UserMap.put("phoneNumber", username2);
+            SettingUserRef.updateChildren(UserMap).addOnCompleteListener(new OnCompleteListener() {
+                @Override
+                public void onComplete(@NonNull Task task) {
+                    if (task.isSuccessful()) {
+                        Toast.makeText(profile.this, "Username updated.", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(profile.this, "Username update failed.", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+        }
+        else {
+            Toast.makeText(profile.this, "Please enter username.", Toast.LENGTH_SHORT).show();
+        }
+        loadingBar.dismiss();
+        loadingBar.dismiss();
+    }
+
 }
