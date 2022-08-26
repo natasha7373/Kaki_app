@@ -108,7 +108,7 @@
         android:id="@+id/titleTVQWrap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Title: "
+        android:text="Attendees: "
         android:textColor="#000000"
         android:textSize="20sp"
         android:fontFamily="@font/futura_bold" />
@@ -116,7 +116,7 @@
         android:id="@+id/titleTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Title:"
+        android:text="Title(Attendees):"
         android:textColor="#000000"
         android:textSize="20sp"
         android:fontFamily="@font/futura_bold" />
@@ -150,7 +150,7 @@
         android:id="@+id/attendeesTVWrap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Attendees: "
+        android:text="Time: "
         android:textColor="#000000"
         android:textSize="20sp"
         android:fontFamily="@font/futura_bold" />
@@ -158,7 +158,7 @@
         android:id="@+id/attendeesTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Attendees:"
+        android:text="Attendees(TIME):"
         android:textColor="#000000"
         android:textSize="20sp"
         android:fontFamily="@font/futura_bold" />
@@ -171,7 +171,7 @@
         android:id="@+id/timeTVWrap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Time: "
+        android:text="Title: "
         android:textColor="#000000"
         android:textSize="20sp"
         android:fontFamily="@font/futura_bold" />
@@ -179,7 +179,7 @@
         android:id="@+id/timeTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Time:"
+        android:text="Time(Title):"
         android:textColor="#000000"
         android:textSize="20sp"
         android:fontFamily="@font/futura_bold" />
