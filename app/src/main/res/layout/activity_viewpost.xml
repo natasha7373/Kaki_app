@@ -125,10 +125,36 @@
                     android:textColor="@color/black"
                     android:textSize="25dp" />
 
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                        <EditText
+                            android:id="@+id/editText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="test">
+                        </EditText>
+
+                        <Button
+                            android:id="@+id/addComment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        </Button>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_comment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </FrameLayout>
+
+
+
 
             </LinearLayout>
 
 
         </FrameLayout>
+
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
