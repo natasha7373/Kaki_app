@@ -298,6 +298,8 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
                                     startActivity(intent);
                                     profile.this.finish();
 
+                                    FirebaseAuth.getInstance().signOut();
+
                                     SharedPreferences.Editor editor = sharedpreferences.edit();
 
                                     // below line will clear
@@ -328,6 +330,7 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
 
                 // calling method to edit values in shared prefs.
                 SharedPreferences.Editor editor = sharedpreferences.edit();
@@ -405,16 +408,22 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
                     final Drawable updateIcon=getResources().getDrawable(R.drawable.checked_icon);
                     updateIcon.setBounds(0,0,updateIcon.getIntrinsicWidth(),updateIcon.getIntrinsicHeight());
                     UserMap.put("password",tempNewPassword);
+                    firebaseUser.updatePassword(tempNewPassword);
                     SettingUserRef.updateChildren(UserMap).addOnCompleteListener(new OnCompleteListener() {
                         @Override
                         public void onComplete(@NonNull Task task) {
                             if (task.isSuccessful()){
                                 newPassword.setError("Updated",updateIcon);
+                                Toast.makeText(profile.this, "Password Updated.", Toast.LENGTH_SHORT).show();
                                 finish();
                                 startActivity(getIntent());
+
+
+
                             }
                             else {
                                 newPassword.setError("Update Failed");
+                                Toast.makeText(profile.this, "Password Update Failed.", Toast.LENGTH_SHORT).show();
                             }
 
                         }

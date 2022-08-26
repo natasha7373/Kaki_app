@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    >
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textColor="#000"
+        android:gravity="bottom"
+        />
+
+    LayoutInflater inflater = getLayoutInflater();
+
+    View layout = inflater.inflate(R.layout.custom_toast,
+    (ViewGroup) findViewById(R.id.custom_toast_layout_id));
+    // set a message
+    TextView text = (TextView) layout.findViewById(R.id.text);
+    text.setText(task.getException().toString());
+
+    Toast toast = Toast.makeText(getApplicationContext(),
+    task.getException().toString(), Toast.LENGTH_LONG);
+    toast.setView(layout);
+    toast.show();
+
+</LinearLayout>

@@ -3,6 +3,8 @@ package com.example.kakihomeui;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class viewpost extends AppCompatActivity {
@@ -11,6 +13,16 @@ public class viewpost extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewpost);
+
+        ImageButton button;
+        button = findViewById(R.id.exit);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         String email = getIntent().getStringExtra("EMAIL");
         String date = getIntent().getStringExtra("DATE");

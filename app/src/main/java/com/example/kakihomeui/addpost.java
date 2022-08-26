@@ -70,8 +70,6 @@ public class addpost extends AppCompatActivity implements SlideDatePickerDialogC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addpost);
 
-
-
         getSupportActionBar().setTitle("Add Post");
 
         mAuth = FirebaseAuth.getInstance();
