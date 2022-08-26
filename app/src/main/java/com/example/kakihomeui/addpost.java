@@ -47,11 +47,11 @@ public class addpost extends AppCompatActivity implements SlideDatePickerDialogC
     FirebaseUser user;
     ImageButton back;
     Button submit;
-    EditText title, location, date, time, desc, attendees;
+    EditText title, location, desc, attendees;
+    TextView date,time,datec;
     private ProgressDialog loadingBar;
     private TextView TimeTextView;
     private ImageButton PickTime;
-    EditText datec;
 
     // creating constant keys for shared preferences.
     public static final String SHARED_PREFS = "shared_prefs";

@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".viewpost">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
 
         <FrameLayout
@@ -126,35 +123,44 @@
                     android:textSize="25dp" />
 
                 <FrameLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                        <EditText
-                            android:id="@+id/editText"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:text="test">
-                        </EditText>
-
-                        <Button
-                            android:id="@+id/addComment"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                        </Button>
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/rv_comment"
+                    <ScrollView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </ScrollView>
+
+                    <Button
+                        android:id="@+id/addComment"
+                        android:text="Add comment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp">
+                    </Button>
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enter comments"
+                        android:layout_marginTop="130dp">
+
+                    </EditText>
+
                 </FrameLayout>
-
-
-
 
             </LinearLayout>
 
-
         </FrameLayout>
 
-    </ScrollView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
