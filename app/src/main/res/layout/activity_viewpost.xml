@@ -143,7 +143,10 @@
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/rv_comment"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/futura_bold"
+                        android:textColor="@color/black"
+                        android:textSize="30dp" />
 
                 </ScrollView>
 
@@ -152,7 +155,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="200dp"
-                    android:text="Enter comments">
+                    android:fontFamily="@font/futura_bold"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:hint="Enter comments">
 
                 </EditText>
 
@@ -164,9 +170,9 @@
                     android:fontFamily="@font/futura_bold"
                     android:textSize="20dp"
                     android:text="Add comment"
-                    android:backgroundTint="@color/kaki_color"></Button>
+                    android:backgroundTint="@color/kaki_color">
 
-
+                </Button>
 
             </FrameLayout>
 

@@ -24,12 +24,14 @@
             android:exported="false" />
         <activity
             android:name=".viewpost"
+            android:windowSoftInputMode="adjustPan"
             android:exported="false" />
         <activity
             android:name=".addpost"
             android:exported="false" />
         <activity
             android:name=".profile"
+            android:windowSoftInputMode="adjustPan"
             android:exported="false" />
         <activity
             android:name=".sign_up"

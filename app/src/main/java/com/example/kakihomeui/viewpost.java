@@ -64,6 +64,15 @@ public class viewpost extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewpost);
 
+        final RecyclerView recyclerView = findViewById(R.id.rv_comment);
+
+        // setting recyclerView size fixed for every item in the recycleView
+        recyclerView.setHasFixedSize(true);
+
+        // setting layout manager to the recyclerView
+        recyclerView.setLayoutManager(new LinearLayoutManager(viewpost.this));
+
+
 
         sharedpreferences = getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE);
         RvComment = findViewById(R.id.rv_comment);
@@ -142,9 +151,10 @@ public class viewpost extends AppCompatActivity {
         iniRvComment();
     }
 
-    private void iniRvComment(){
+    private void iniRvComment() {
 
         RvComment.setLayoutManager(new LinearLayoutManager(this));
+        RvComment.setHasFixedSize(true);
 
         DatabaseReference commentRef = mDatabase.getReference("Comment").child("commentID");
         commentRef.addValueEventListener(new ValueEventListener() {
@@ -154,7 +164,6 @@ public class viewpost extends AppCompatActivity {
                 for (DataSnapshot snap:snapshot.getChildren()) {
                     Comment comment = snap.getValue(Comment.class);
                     listComment.add(comment);
-
                 }
 
                 commentAdapter = new CommentAdapter(getApplicationContext(), listComment);
