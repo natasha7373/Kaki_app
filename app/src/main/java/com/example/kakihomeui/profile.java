@@ -1,5 +1,9 @@
 package com.example.kakihomeui;
 
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContract;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -92,7 +96,7 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
     DatabaseReference SettingUserRef;
     private ProgressDialog loadingBar;
     private StorageReference ProfileImgRef;
-    private ImageFilterView ProfileImg;
+    private ImageView ProfileImg;
     final static int Gallery_Pick=1;
     private static final int RESULT_CODE = 100;
     FirebaseUser firebaseUser;
@@ -101,6 +105,8 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
     EditText enteredPassword,newPassword,confirmPassword;
     Button save;
     Button deleteAccount;
+
+    ActivityResultLauncher<String> mGetContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -135,14 +141,20 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
         email = findViewById(R.id.email);
 
 
-        ProfileImg=(ImageFilterView)findViewById(R.id.ivProfile);
+        ProfileImg=findViewById(R.id.ivProfile);
         ProfileImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent galleryIntent=new Intent();
-                galleryIntent.setAction(Intent.ACTION_GET_CONTENT);
-                galleryIntent.setType("image/*");
-                startActivityForResult(galleryIntent,Gallery_Pick);
+                mGetContent.launch("image/*");
+            }
+        });
+
+        mGetContent = registerForActivityResult(new ActivityResultContracts.GetContent(), new ActivityResultCallback<Uri>() {
+            @Override
+            public void onActivityResult(Uri result) {
+                Intent intent = new Intent(profile.this, CropperActivity.class);
+                intent.putExtra("DATA", result.toString());
+                startActivityForResult(intent, 101);
             }
         });
 
@@ -212,68 +224,6 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
             }
         });
 
-
-     /*
-        @Override
-        protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-            super.onActivityResult(requestCode, resultCode, data);
-            if (requestCode == Gallery_Pick && resultCode == RESULT_OK && data != null) {
-                Uri ImageUri = data.getData();
-
-                CropImage.activity(ImageUri)
-                        .setGuidelines(CropImageView.Guidelines.ON)
-                        .setAspectRatio(1, 1)
-                        .getIntent(this);
-
-            }
-
-           if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
-                CropImage.ActivityResult result = CropImage.getActivityResult(data);
-
-                if (resultCode == RESULT_OK) {
-
-
-                    loadingBar.setMessage("Please wait, while we update your profile picture.");
-                    loadingBar.show();
-                    loadingBar.setCanceledOnTouchOutside(false);
-                    Uri resultUri = result.getUri();
-
-                    final StorageReference filePath = ProfileImgRef.child(currentUserID + ".jpg");
-
-                    filePath.putFile(resultUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                        @Override
-                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                            filePath.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-                                @Override
-                                public void onSuccess(Uri uri) {
-                                    final String downloadUrl = uri.toString();
-
-                                    UsersReference.child("profileImage").setValue(downloadUrl)
-                                            .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                                @Override
-                                                public void onComplete(@NonNull Task<Void> task) {
-                                                    if (task.isSuccessful()) {
-                                                        Intent intent = new Intent(profile.this, profile.class);
-                                                        startActivity(intent);
-                                                        finish();
-
-                                                    } else {
-                                                        Toast.makeText(profile.this, "Error occured..." + task.getException(), Toast.LENGTH_LONG).show();
-
-                                                    }
-
-                                                }
-                                            });
-                                }
-                            });
-                        }
-                    });
-                }
-           }
-
-
-        }
-*/
         deleteAccount=findViewById(R.id.idBtnDelete);
 
         deleteAccount.setOnClickListener(new View.OnClickListener() {
@@ -384,6 +334,20 @@ public class profile extends AppCompatActivity implements dialog.dialogListener 
                 return false;
             }
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(resultCode==-1 && requestCode==101){
+            String result = data.getStringExtra("RESULT");
+            Uri resultUri =null;
+            if(result!=null)
+            {
+                resultUri = Uri.parse(result);
+            }
+            ProfileImg.setImageURI(resultUri);
+        }
     }
 
     private void deleteUserData(String currentUserID) {
