@@ -28,12 +28,6 @@
             android:name=".profile"
             android:exported="false" />
         <activity
-            android:name=".chat"
-            android:exported="false" />
-        <activity
-            android:name=".friends"
-            android:exported="false" />
-        <activity
             android:name=".sign_up"
             android:exported="false" />
         <activity
