@@ -136,15 +136,15 @@
             android:hint="Select Date"
             android:padding="10dp"
             android:textAlignment="center"
-            android:textColorHint="#FFFFFF"
-            android:textSize="34dp" />
+            android:textColorHint="#8F050505"
+            android:textSize="30dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/date_banner2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/date"
-            android:layout_marginStart="200dp"
+            android:layout_marginStart="350dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
             android:layout_marginBottom="10dp"
@@ -152,6 +152,7 @@
             android:fontFamily="@font/futura_bold"
             android:hint="Select Date"
             android:padding="10dp"
+            android:src="@drawable/ic_baseline_create_24"
             android:textAlignment="center"
             android:textColorHint="#FFFFFF"
             android:textSize="34dp" />
@@ -183,15 +184,15 @@
             android:hint="Select Time"
             android:padding="10dp"
             android:textAlignment="center"
-            android:textColorHint="#FFFFFF"
-            android:textSize="34dp" />
+            android:textColorHint="#8F050505"
+            android:textSize="30dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/time_banner2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/time"
-            android:layout_marginStart="200dp"
+            android:layout_marginStart="350dp"
             android:layout_marginTop="1dp"
             android:layout_marginEnd="5dp"
             android:layout_marginBottom="10dp"
@@ -199,6 +200,7 @@
             android:fontFamily="@font/futura_bold"
             android:hint="Select Time"
             android:padding="10dp"
+            android:src="@drawable/ic_baseline_create_24"
             android:textAlignment="center"
             android:textColorHint="#FFFFFF"
             android:textSize="34dp" />
