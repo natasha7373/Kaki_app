@@ -148,16 +148,6 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
                                 ,MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
-                    case R.id.friend:
-                        startActivity(new Intent(getApplicationContext()
-                                ,friends.class));
-                        overridePendingTransition(0,0);
-                        return true;
-                    case R.id.chat:
-                        startActivity(new Intent(getApplicationContext()
-                                ,chat.class));
-                        overridePendingTransition(0,0);
-                        return true;
                     case R.id.profile:
                         startActivity(new Intent(getApplicationContext()
                                 ,profile.class));

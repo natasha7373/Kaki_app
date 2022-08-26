@@ -5,15 +5,9 @@
         android:icon="@drawable/ic_baseline_home_24"
         android:id="@+id/home"/>
 
-    <item android:title="Friends"
-        android:icon="@drawable/ic_baseline_friend_24"
-        android:id="@+id/friend"/>
     <item android:title="Post"
         android:icon="@drawable/ic_baseline_add_24"
         android:id="@+id/post"/>
-    <item android:title="Chat"
-        android:icon="@drawable/ic_baseline_chat_bubble_24"
-        android:id="@+id/chat"/>
     <item android:title="Profile"
         android:icon="@drawable/ic_baseline_profile_24"
         android:id="@+id/profile"/>

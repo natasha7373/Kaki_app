@@ -4,8 +4,8 @@
     package="com.example.kakihomeui">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -18,20 +18,20 @@
         android:theme="@style/Theme.KAKIHomeUI"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
+        <activity
+            android:name=".CropperActivity"
+            android:exported="false" />
         <activity
             android:name=".viewpost"
+            android:windowSoftInputMode="adjustPan"
             android:exported="false" />
         <activity
             android:name=".addpost"
             android:exported="false" />
         <activity
             android:name=".profile"
-            android:exported="false" />
-        <activity
-            android:name=".chat"
-            android:exported="false" />
-        <activity
-            android:name=".friends"
+            android:windowSoftInputMode="adjustPan"
             android:exported="false" />
         <activity
             android:name=".sign_up"
@@ -52,8 +52,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.canhub.cropper.CropImageActivity"
-            android:theme="@style/Base.Theme.AppCompat" />
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

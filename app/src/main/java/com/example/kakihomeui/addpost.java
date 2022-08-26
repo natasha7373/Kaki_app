@@ -47,11 +47,11 @@ public class addpost extends AppCompatActivity implements SlideDatePickerDialogC
     FirebaseUser user;
     ImageButton back;
     Button submit;
-    EditText title, location, date, time, desc, attendees;
+    EditText title, location, desc, attendees;
+    TextView date,time,datec;
     private ProgressDialog loadingBar;
     private TextView TimeTextView;
-    private TextView PickTime ;
-    TextView datec;
+    private ImageButton PickTime;
 
     // creating constant keys for shared preferences.
     public static final String SHARED_PREFS = "shared_prefs";
@@ -95,9 +95,9 @@ public class addpost extends AppCompatActivity implements SlideDatePickerDialogC
         semail = sharedpreferences.getString(EMAIL_KEY, null);
         loadingBar = new ProgressDialog(this);
 
-        TimeTextView = findViewById(R.id.time);
+        TimeTextView = findViewById(R.id.time_banner);
         PickTime = findViewById(R.id.time_banner2);
-        datec = findViewById(R.id.date);
+        datec = findViewById(R.id.date_banner);
 
         PickTime.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,7 +105,7 @@ public class addpost extends AppCompatActivity implements SlideDatePickerDialogC
                 Calendar calendar = Calendar.getInstance();
                 int hours = calendar.get(Calendar.HOUR_OF_DAY);
                 int mins = calendar.get(Calendar.MINUTE);
-                TimePickerDialog timePickerDialog = new TimePickerDialog(addpost.this, androidx.appcompat.R.style.Theme_AppCompat_Dialog, new TimePickerDialog.OnTimeSetListener() {
+                TimePickerDialog timePickerDialog = new TimePickerDialog(addpost.this, R.style.TimePickerTheme, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                         Calendar c = Calendar.getInstance();
@@ -132,7 +132,7 @@ public class addpost extends AppCompatActivity implements SlideDatePickerDialogC
         });
 
         loadingBar = new ProgressDialog(this);
-        Button dateBtn = findViewById(R.id.date_banner2);
+        ImageButton dateBtn = findViewById(R.id.date_banner2);
         dateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -143,10 +143,10 @@ public class addpost extends AppCompatActivity implements SlideDatePickerDialogC
                 SlideDatePickerDialog.Builder builder = new SlideDatePickerDialog.Builder();
                 builder.setEndDate(endDate); // max date
                 builder.setLocale(Locale.US); //country
-                builder.setThemeColor(Color.rgb(100,200,255)); //dialog colour
+                builder.setThemeColor(Color.rgb(238,92,84)); //dialog colour
                 builder.setShowYear(true); //show year
                 builder.setCancelText("cancel"); //cancel text
-                builder.setConfirmText("confirm"); //confirm text
+                builder.setConfirmText("ok"); //confirm text
 
                 SlideDatePickerDialog dialog = builder.build();
                 dialog.show(getSupportFragmentManager(), "Dialog");
