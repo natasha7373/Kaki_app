@@ -6,16 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".viewpost">
 
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />
-    </ScrollView>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -134,31 +128,37 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="215dp">
 
                 <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/rv_comment"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:fontFamily="@font/futura_bold"
                         android:textColor="@color/black"
                         android:textSize="30dp" />
 
                 </ScrollView>
 
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
                 <EditText
                     android:id="@+id/editText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="200dp"
+
                     android:fontFamily="@font/futura_bold"
-                    android:textColor="@color/black"
                     android:textSize="30dp"
-                    android:hint="Enter comments">
+                    android:textColor="@color/black"
+                    android:hint="Enter comment" >
 
                 </EditText>
 
@@ -166,12 +166,11 @@
                     android:id="@+id/addComment"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="250dp"
+                    android:layout_marginTop="50dp"
                     android:fontFamily="@font/futura_bold"
                     android:textSize="20dp"
                     android:text="Add comment"
                     android:backgroundTint="@color/kaki_color">
-
                 </Button>
 
             </FrameLayout>
