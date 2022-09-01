@@ -65,7 +65,6 @@ public class sign_in extends AppCompatActivity {
     TextView googleSignInButton, signUp;
     private ProgressDialog loadingBar;
 
-
     private static final int RC_SIGN_IN = 100;
 
     private FirebaseAuth mAuth;
@@ -108,9 +107,15 @@ public class sign_in extends AppCompatActivity {
         remember = findViewById(R.id.checkbox_meat);
         SharedPreferences preferences = getSharedPreferences("checkbox", MODE_PRIVATE);
         String checkbox = preferences.getString("remember", "");
-        if (checkbox.equals("true")) {
-            Intent intent = new Intent(sign_in.this, MainActivity.class);
-            startActivity(intent);
+
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("remember", "false");
+        editor.apply();
+
+        if (checkbox.equals("true") && semail != null && spassword != null) {
+            Intent i = new Intent(sign_in.this, MainActivity.class);
+            startActivity(i);
+
         } else if (checkbox.equals("false")) {
             Toast.makeText(sign_in.this, "Please sign in", Toast.LENGTH_SHORT).show();
         }
@@ -373,16 +378,6 @@ public class sign_in extends AppCompatActivity {
             }
         });
     }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        if (semail != null && spassword != null) {
-            Intent i = new Intent(sign_in.this, MainActivity.class);
-            startActivity(i);
-        }
-    }
-
 
 }
 
