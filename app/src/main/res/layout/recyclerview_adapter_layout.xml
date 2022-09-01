@@ -20,154 +20,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <TextView
-        android:id="@+id/emailWrap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email: "
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold"
-        />
-    <TextView
-        android:id="@+id/emailTV"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Email:"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold"/>
-</LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:id="@+id/dateWrap"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Date: "
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:fontFamily="@font/futura_bold" />
-            <TextView
-                android:id="@+id/dateTV"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Date:"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:fontFamily="@font/futura_bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:id="@+id/datePTVWrap"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Date Posted: "
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:fontFamily="@font/futura_bold" />
-            <TextView
-                android:id="@+id/datePTV"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Date Posted:"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:fontFamily="@font/futura_bold"/>
-        </LinearLayout>
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/desTVWrap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Description: "
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-    <TextView
-        android:id="@+id/desTV"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Description:"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-</LinearLayout>
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/titleTVQWrap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Attendees: "
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-    <TextView
-        android:id="@+id/titleTV"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Title(Attendees):"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-</LinearLayout>
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/locTVWrap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Location: "
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-    <TextView
-        android:id="@+id/locTV"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Location:"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-</LinearLayout>
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/attendeesTVWrap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Time: "
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-    <TextView
-        android:id="@+id/attendeesTV"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Attendees(TIME):"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:fontFamily="@font/futura_bold" />
-</LinearLayout>
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
         android:id="@+id/timeTVWrap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -185,7 +37,136 @@
         android:fontFamily="@font/futura_bold" />
 </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/dateWrap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+                <TextView
+                    android:id="@+id/dateTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/attendeesTVWrap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+                <TextView
+                    android:id="@+id/attendeesTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Attendees(TIME):"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locTVWrap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+                <TextView
+                    android:id="@+id/locTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location:"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/titleTVQWrap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attendees: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+                <TextView
+                    android:id="@+id/titleTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title(Attendees):"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/emailTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/datePTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date Posted:"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/desTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/futura_bold"
+                    android:visibility="invisible"/>
+            </LinearLayout>
 
 
         </LinearLayout>
